@@ -1,0 +1,103 @@
+[[AdvancedFormat]]
+
+[[Question:Matrix]]
+[[ID:TSRS]]
+For the following questions, please think of the story you just read.
+
+Read each of the following statements and decide how much you agree with each.
+[[Choices]]
+I had a hard time making sense of what was going on in the story.
+I had a hard time recognizing the thread of the story.
+The story appeared to be a single plot.
+The plot of the story was plausible.
+This story’s events occured in a plausible order
+The story felt like a coherent story.
+The story felt like it contained a bunch of jumbled topics.
+The story stayed on topic with a consistent plot.
+The story felt like a series of disconnected sentences.
+The story taken as a whole had a clearly indentifiable plot.
+The story had a clear theme.
+The story lacked logic.
+Descriptions of characters in the story were consistent.
+Characters in the story were described in a contradicting manner.
+My understanding of the characters in the story is unclear.
+The way the characters were described was inconsistent.
+The descriptions of characters in the story was plausible.
+The behavior of characters in the story seemed completly random.
+How characters in the story acted seemed inplausible.
+It was easy to undestand the motivation of the characters in the story.
+The story felt dynamic.
+The story was boring.
+The plot development in the story was predictable.
+The story was creative.
+The story was imaginative.
+It was surprising how things turned out in the story.
+There were interesting twists and turns in the story.
+I was intrigued by the plot.
+The setting of the story was original.
+The story was unconventional.
+The plot was typical for this kind of story.
+The story was innovative.
+(is likely to have too many cross-loadings, but are used often enough that is worth giving these a try)
+This story was enjoyable.
+This story is of high quality.
+The story was fun to read.
+The story made me want to keep reading.
+The story felt vivid.
+I liked this story.
+I would like to read more stories like this one.
+The story was well-written.
+The writing style was entertaining.
+This story avoided repetition.
+Many sentences in the story had frequently repeated words and phrases.
+The story was very repetitive.
+In the story, the same things happened again and again.
+The writing seemed to use the same words over and over.
+Characters repeated their actions with little variation.
+The plot had no development.
+One character did something he or she had already done previously in this story.
+Characters said or did the same thing many times over.
+Characters repeated what other characters had said to them.
+Particular words were used too often in the story.
+There were similar events that occurred repeatedly in the story.
+This story used interesting language.
+The story had sentences that were unreadable
+The text contained a broad vocabulary.
+The story used complex vocabulary.
+The wording of this text was very precise.
+The text was easy to understand.
+The writing style was too complicated to be understood easily.
+The story contained a great deal of detail.
+The writing style of the story was very good.
+The author's choice of words was elegant
+The story had no obvious grammatical mistakes.
+The story moved at a fast pace.
+The story was exciting to read.
+It took a long time for things to happen in the story.
+The story dragged on and on.
+Nothing seemed to be happening in the story.
+There was plenty of action in the story.
+Many things seemed to be happening at once in the story.
+All elements of the story were relevant to the plot.
+There's nothing superfluous or unnecessary in this story.
+While I was reading the story, I could easily picture the events in it taking place.
+I was mentally involved in the story while reading it.
+After the story ended, I found it easy to put it out of my mind.
+I wanted to learn how the story ended.
+I found myself thinking of ways the story could have turned out differently.
+I found my mind wandering while reading the story.
+I had a hard time keeping my mind on the story.
+While reading the story, my mind was inside the world created by it.
+The story created a new world, and then that world suddenly disappeared when I finished reading the story.
+At times during the story, the story world was closer to me than the real world.
+[[AdvancedAnswers]]
+[[Answer]]
+Disagree
+[[Answer]]
+&nbsp;
+[[Answer]]
+Neutral
+[[Answer]]
+&nbsp;
+[[Answer]]
+Agree
