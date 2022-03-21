@@ -1,5 +1,5 @@
-# Excerpt 1 (Ouroboros)\
-\
+# Excerpt 1 (Ouroboros)
+
 I woke up to hear knocking on glass. At first, I thought it was the window until I heard it come from the mirror again. I got out of bed and walked over to the mirror. When I looked into it, there was a face looking back at me. It was thin, long-nosed, and had sunken cheeks that almost disappeared under its gray skin. Its lips were pulled back in a wide smile and it held one hand out toward me as if beckoning me closer. As the other hand slowly traced its fingers down my cheek, I backed away, scared by what I saw reflected in the glass.\
 As I turned and ran for the door, the mirror began to shatter into thousands of tiny shards. I fell down on the floor and felt them slide under my skin like hundreds of tiny needles. In just seconds, they traveled down my body with all their little sharp ends reaching through the surface of my skin to the inner depths. I closed my eyes tight as the pain started to build, but as soon as the pain hit my mind, the glass began to move under my skin again. The shards began to crawl up my arms and legs toward my heart as I tried to scream but no sound would come out.\
 I could feel the glass crawling along my neck, finally making it up to my mouth and biting deep into my tongue. I was trying to pull it out but it kept growing larger and more painful. I opened my eyes wide so I wouldn't miss any of the pain as it reached its peak. I opened my mouth to cry out when it pierced my brain. I stopped screaming, I didn't have the strength to even close my mouth anymore. As it began to devour my brain, the pain finally came to an end. I opened my eyes to see myself in a bright light as I was slowly dying.\
@@ -22,9 +22,9 @@ It was about two hours later when I heard knocking on my door. My wife answered 
 She stepped aside and let him pass. When he closed the door, I could hear him walking toward the kitchen.\
 "Why did you lock your bedroom door this morning?" The officer asked. "And why didn't you answer us when we knocked?"\
 I started to explain, but she interrupted me. "I told you, the door was locked."\
-\
-# Excerpt 2 (Ace of Spades)\
-\
+
+# Excerpt 2 (Ace of Spades)
+
 I woke up to hear knocking on glass. At first, I thought it was the window until I heard it come from the mirror again. I got out of bed and walked over to the mirror. When I looked into it, there was a face looking back at me. It had a large nose that looked like an elephant's trunk with two large nostrils. The mouth was small and thin. Its eyes were small, but they seemed to be staring straight through me. There was a long black hair covering its head. This wasn't just any old man. It was a demon! I screamed and ran downstairs. My parents came running as well, and my dad called 911. We all stayed together in our living room waiting for the police. They said someone would be here shortly.\
 It was only ten minutes later when the doorbell rang. I opened it to see the sheriff standing outside. He asked if he could come inside. As soon as he stepped foot inside, he fell to his knees and began screaming. He then grabbed my father by the shirt and started shaking him violently. All this time, I'm still sitting on the couch holding my mom's hand. After a few seconds, the sheriff calmed down and sat back in his chair.\
 "What happened?" My mom asked. "Is everything okay? Did something happen to you guys?"\
