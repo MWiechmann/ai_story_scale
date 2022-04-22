@@ -3,4 +3,4 @@ The AI Story Scale (AISS) is currently the only questionnaire for rating AI stor
 
 I will try to slowly improve and expand this scale with new data. This site will link to the current version of the AISS:
 
-[AISS v1](link)
+[AISS v1](../v1/aiss_v1.md)
