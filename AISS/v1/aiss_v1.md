@@ -33,7 +33,7 @@ Indicate how much you agree or disagree with each of the following statements ab
 ## Creativity
 7. I would like to read more stories like this one.
 8. The story was innovative.
-9. This story is of high quality.
+9. This story was of high quality.
 10. The story was exciting to read.
 11. The setting of the story was original.
 12. The story used complex vocabulary.
