@@ -37,8 +37,7 @@ Insights from measurement theory can help us to be cognizant of potential pitfal
 * We assume that when a person answers the question "On a scale from 1 to 5, how interesting is this story?" the perceived interestingness causes at least part of the response.[^1]
      * _Other causes for the response can be considered measuring error. For example, a person might give a higher rating because she is in a good mood, generally gives high ratings on questionnaires, etc…_
 
-[^1]: This is the first footnote.
-_Note: This model of measurement is known as the reflective measurement model: Constructs are assumed to cause indicators (responses to questions). The flip side would be a formative measurement model. However, I consider a reflective measurement model to be more appropriate for the assumptions researchers imply when collecting human evaluations, and will therefore not give further consideration to the formative measurement model._
+[^1]: _Note: This model of measurement is known as the reflective measurement model: Constructs are assumed to cause indicators (responses to questions). The flip side would be a formative measurement model. However, I consider a reflective measurement model to be more appropriate for the assumptions researchers imply when collecting human evaluations, and will therefore not give further consideration to the formative measurement model._
 
 Problems with this process can arise at different points:
 1. Not matter how plausible it sounds in theory, the latent variable might not actually be meaningful for real word measurements (people might not consider 'interestingness' an actual criterion when judging stories).
