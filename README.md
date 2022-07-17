@@ -47,4 +47,4 @@ Problems with this process can arise at different points:
 
 Issue 1) concerns the _underlying factorial structure_ of questions (i.e., the latent factors that are predicting answers to the questions). Issue 2) concerns whether questions measure what they are supposed to measure. This is generally referred to as _validity_. Issue 3) concerns the precision or measurement error of question items. This is also referred to as the _reliability_ of question items. 
 
-# ADD IN REFERENCES
+to be continued...
