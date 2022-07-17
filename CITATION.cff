@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use the AISS, please cite it as below."
+authors:
+  - family-names: Wiechmann
+    given-names: Marcel
+    orcid: https://orcid.org/0000-0002-6940-4690
+title: "The AI Story Scale v1"
+version: 1.0.0
+date-released: 2022-23-04
+url: "https://github.com/MWiechmann/ai_story_scale"
