@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use the AISS, please cite it as below."
-type: report
+type: dataset
 authors:
   - family-names: Wiechmann
     given-names: Marcel
@@ -8,3 +8,11 @@ authors:
 title: "The AI Story Scale v1"
 date-released: 2022-23-04
 url: "https://github.com/MWiechmann/ai_story_scale"
+preferred-citation:
+  authors:
+    - family-names: Wiechmann
+      given-names: Marcel
+  title: "The AI Story Scale v1"
+  type: generic
+  year: 2022
+  url: "https://github.com/MWiechmann/ai_story_scale"
