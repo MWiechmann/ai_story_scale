@@ -99,4 +99,4 @@ The initial study for drafting the items for the AISS, and exploring their facto
 It also contains a few proof of concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different type of stories.
 
 # How To Cite The AISS
-Look to the right to the 'About' field. Click the line that says 'Cite this repository'.
+Go to the [main page of the repo](https://github.com/MWiechmann/ai_story_scale) if you aren't already, and look to the right to the 'About' field. Click the line that says 'Cite this repository'.
