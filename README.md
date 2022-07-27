@@ -66,7 +66,7 @@ _[© Nevit Dilmen](https://commons.wikimedia.org/wiki/File:Reliability_and_valid
 ### How To Ensure Validity And Reliability
 So how do we make sure that our measure for human ratings is valid and reliable? The answer is generally: By using psychometric techniques for validating questionnaires with real-world data.
 
-Ideally, a systematic and rigorous approach is taken starting from the construction of the measure. A good summary of best practices according to insights from psychometric research can for example be found in [Boateng et al. (2018)](https://www.frontiersin.org/articles/10.3389/fpubh.2018.00149/full) and [Hinkin, (1998)](https://journals.sagepub.com/doi/abs/10.1177/109442819800100106).
+Ideally, a systematic and rigorous approach is taken starting from the construction of the measure. A good summary of best practices according to insights from psychometric research can for example be found in [Boateng et al. (2018)](https://www.frontiersin.org/articles/10.3389/fpubh.2018.00149/full) and [Hinkin (1998)](https://journals.sagepub.com/doi/abs/10.1177/109442819800100106).
 
 A very brief (and likely overly superficial) overview of the process:
 1. _Item Generation_: Define the dimensions to be measured. Note that dimensions are tentative at this point and likely will have to be revised once your theory collides with real-world data. Humans are pesky – they ~~might~~ will react differently to your items than your nice, clean theory suggests.
