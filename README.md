@@ -45,7 +45,7 @@ Insights from measurement theory can help us to be cognizant of potential pitfal
 Problems with this process can arise at different points, but are generally put under two categories:
 
 #### Validity
-A _valid_ measure, measures the construct it actually intends to measure. An _invalid_ measure does provide measurement of the intended construct. Validity has many aspects, and issues with validity can arise for a multitude of reasons.
+A _valid_ measure, measures the construct it actually intends to measure. An _invalid_ measure does not provide measurement of the intended construct. Validity has many aspects, and issues with validity can arise for a multitude of reasons.
 
 For example, people might simply not consider 'interestingness' its own independent criterion when judging stories. That is, while it might have appeared plausible in theory, interestingness might turn out to not meaningfully exist as a construct in the real world. Responses to the question “How interesting is this story?” might instead be predicted by a mixture of other factors (for example, the perceived creativity of the story).
 
