@@ -42,10 +42,10 @@ Insights from measurement theory can help us to be cognizant of potential pitfal
 
 [^1]: This model of measurement is known as the reflective measurement model: Constructs are assumed to cause indicators (responses to questions). The flip side would be a formative measurement model. However, I consider a reflective measurement model to be more appropriate for the assumptions researchers imply when collecting human evaluations, and I will therefore not give further consideration to the formative measurement model.
 
-Problems with this process can arise at different points, but are generally put under two categories:
+Problems with this process can arise at different points, but are generally put under two categories: Validity and reliability. Both concepts have many aspects, and I cannot possibly cover the full spectrum of research on these topics here. Below I will just give a fairly simplistic summary of the main ideas. For a more detailed coverage see for example Drost (2011)[https://www3.nd.edu/~ggoertz/sgameth/Drost2011.pdf], [Wolming and Wikström (2010)](https://www.researchgate.net/profile/Simon-Wolming/publication/233213201_The_concept_of_validity_in_theory_and_practice/links/552627b60cf295bf160eccb5/The-concept-of-validity-in-theory-and-practice.pdf) and [Meyer (2010)](https://www.amazon.de/dp/B005NJUAK8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
 
 #### Validity
-A _valid_ measure, measures the construct it actually intends to measure. An _invalid_ measure does not provide measurement of the intended construct. Validity has many aspects, and issues with validity can arise for a multitude of reasons.
+A _valid_ instrument measures the construct it actually intends to measure. An _invalid_ measure does not provide measurement of the intended construct. Issues with validity can arise for a multitude of reasons.
 
 For example, people might simply not consider 'interestingness' its own independent criterion when judging stories. That is, while it might have appeared plausible in theory, interestingness might turn out to not meaningfully exist as a construct in the real world. Responses to the question “How interesting is this story?” might instead be predicted by a mixture of other factors (for example, the perceived creativity of the story).
 
