@@ -70,7 +70,7 @@ Ideally, a systematic and rigorous approach is taken starting from the construct
 
 A very brief (and likely overly superficial) overview of the process:
 1. _Item Generation_: Define the dimensions to be measured. Note that dimensions are tentative at this point and likely will have to be revised once your theory collides with real-world data. Humans are pesky – they ~~might~~ will react differently to your items than your nice, clean theory suggests.
-Then generate items for these dimensions. Base those on existing literature and theory or by exploratory research (= talking to people).
+Then generate items for these dimensions. Base those on existing literature and theory and/or on exploratory research (= talking to people).
 2. _Scale Development_: Take your drafted questionnaire and see how people respond to your questions in the real world. The main technique here is analyzing responses to the questions with exploratory factor analysis (EFA) to investigate the underlying factorial structure that explains response patterns on the items. Usually, this step is also used to sort out items that are undesirable for one reason or another.
 Ideally, the first version of the questionnaire will be finalized at the end of this step: The researcher will typically have revised the dimensions to be measured and will have selected the ideal set of items to measure those for a first usable version of the scale.
 3. _Scale Validation_: Undertake additional studies to validate the scale's validity and reliability. You might want to suggest modifications to the questionnaire based on your results to further refine the measure.
