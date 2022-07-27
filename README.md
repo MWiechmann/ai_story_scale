@@ -84,7 +84,7 @@ Furthermore, it is very common in the field for each concept (such as 'local con
 
 [^2]: Admittedly, this does not matter much in this case, as none of these items have ever been checked for their psychometric quality.
 
-The existing instruments have clearly laid the groundwork for evaluating the quality and nature of AI-generated stories. But as we have seen in the previous section, they currently do so at the risk of producing biased results and misleading theoretical insights. While I do not want to take away from their work, I believe they would benefit from being more thoroughly validated against established psychometrics principles for human evaluation of stories.
+The existing instruments have clearly laid the groundwork for evaluating the quality and nature of AI-generated stories. But as we have seen in the previous section, they currently do so at the risk of producing biased results and misleading theoretical insights. While I do not want to take away from their work, I believe they would benefit from being more thoroughly validated against established psychometrics principles.
 
 ## Enter The AI Story Scale
 My proposed instrument for evaluating AI-generated stories was developed according to best practices for scale construction: The AI Story Scale (AISS). It is currently the only questionnaire for rating AI-generated stories based on empirical analysis. It should provide a robust instrument to understand how different language models and hyperparameters influence people's experience of the resulting story output. You can find the instrument [here](https://github.com/MWiechmann/ai_story_scale/tree/main/AISS).
