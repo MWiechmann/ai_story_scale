@@ -3,7 +3,7 @@ Coming soon…
 
 # Motivation
 Generative language models (GLMs) are awesome! The rapid advances of this technology in the last few years can only be described as breathtaking ([Min et al., 2021](https://arxiv.org/pdf/2111.01243.pdf); [Tang, Guerin, Li & Lin, 2022)](https://arxiv.org/pdf/2203.03047.pdf). Such models are already showing an impressive proficiency for tasks as complex and multi-facetted as storytelling ([Alhussain & Azmi, 2021)](https://www.researchgate.net/profile/Aqil-Azmi/publication/351858590_Automatic_Story_Generation_A_Survey_of_Approaches/links/60afe2e0299bf13438efd3bc/Automatic-Story-Generation-A-Survey-of-Approaches.pdf). If you somehow find yourself reading this without having experienced the power and beauty of generative language models, I urge you to try out one of the many available resources:
-* [Novel AI](https://novelai.net/#/) is a _“a monthly subscription service for AI-assisted authorship, storytelling, virtual companionship, or simply a GPT powered sandbox for your imagination.”_, based on open-source language models (they have a free trial)
+* [Novel AI](https://novelai.net/#/) is a _“a monthly subscription service for AI-assisted authorship, storytelling, virtual companionship, or simply a GPT powered sandbox for your imagination”_, based on open-source language models (they have a free trial)
 * [GooseAI](https://goose.ai/playground), a _“NLP-as-a-Service delivered via API”_, offers a playground to try many open-source language models with a $10 trial.
 * [KoboldAI](https://github.com/KoboldAI/KoboldAI-Client) offers an interface for hosting your model locally or on Google Colab (setting it up is non-trivial, though)
 
