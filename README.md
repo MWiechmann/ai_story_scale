@@ -47,7 +47,7 @@ Problems with this process can arise at different points, but are generally put 
 #### Validity
 A _valid_ measure, measures the construct it actually intends to measure. An _invalid_ measure does provide measurement of the intended construct. Validity has many aspects, and issues with validity can arise for a multitude of reasons.
 
-For example, people might simply not consider 'interestingness' its own independent criterion when judging stories. That is, while it might have appeared plausible in theory, interestingness might turn out to not meaningfully exist as a construct in the real world. The question “How interesting is this story?” might instead be predicted by a mixture of other factors (for example, the perceived creativity of the story).
+For example, people might simply not consider 'interestingness' its own independent criterion when judging stories. That is, while it might have appeared plausible in theory, interestingness might turn out to not meaningfully exist as a construct in the real world. Responses to the question “How interesting is this story?” might instead be predicted by a mixture of other factors (for example, the perceived creativity of the story).
 
 Alternatively, 'interestingness' might be a meaningful construct in the real world, but our questions for whatever reason simply fail to capture it and measure something else instead. Say, we tried to measure 'interestingness' by asking, “Was this story nail-biting?”. The question might turn out to measure a combination of tone and pace instead.
 
