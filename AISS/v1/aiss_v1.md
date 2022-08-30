@@ -1,7 +1,7 @@
 # AISS-v1
 The AISS measures the following story aspects:
 * **Coherence**: Does the story feel plausible, coherent and has a clear thread? (higher = more coherent)
-* **Creativity**: Does the story feel innovative, original and exciting? For stories from language models, "Creativity" also includes the perceptions of quality and enjoyability as well as complexity of writing. (higher = more creative/higher quality/higher writing complexity)
+* **Creativity/Quality**: Does the story feel innovative and of high quality? (higher = more creative/higher quality)
 * **Avoiding Repetition**: Does the story avoid repetitions of elements? (higher = less repetitive)
 * **Pace**: Does nothing ever happen, or do things happen with a fast pace? (higher = faster pace)
 * **Consistent Characterization**:  Are characters described consistently, with no contradictions? (higher = more consistency)
@@ -30,7 +30,7 @@ Indicate how much you agree or disagree with each of the following statements ab
 5. The behavior of characters in the story seemed completely random. _(reverse)_
 6. The story felt like a coherent story.
 
-## Creativity
+## Creativity/Quality
 7. I would like to read more stories like this one.
 8. The story was innovative.
 9. This story was of high quality.
