@@ -96,7 +96,7 @@ I will try to slowly improve and expand this scale with new data.[^3] Links to m
 [^3]: However, when I say 'slow', I mean _really slow_ – this is still a hobby project of mine!
 
 ### [Study 1: Building the AI Story Scale](https://github.com/MWiechmann/ai_story_scale/tree/main/study1_scale_construction)
-The initial study for drafting the items for the AISS, and exploring their factorial structure.
+The initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
 
 It also contains a few proof of concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different type of stories.
 
