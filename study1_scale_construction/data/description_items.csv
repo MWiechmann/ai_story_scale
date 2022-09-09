@@ -1,77 +1,77 @@
 ,0
 Qual_Check_1,"The story I just read, began with..."
 Qual_Check_1_DO,"The story I just read, began with... - Display Order"
-tss_coh_1,I had a hard time making sense of what was going on in the story.
-tss_coh_2,I had a hard time recognizing the thread of the story.
-tss_coh_3,The story appeared to be a single plot.
-tss_coh_4,The plot of the story was plausible.
-tss_coh_5,This story’s events occurred in a plausible order
-tss_coh_6,The story felt like a coherent story.
-tss_coh_7,The story felt like it contained a bunch of jumbled topics.
-tss_coh_8,The story stayed on topic with a consistent plot.
-tss_coh_9,The story felt like a series of disconnected sentences.
-tss_coh_10,The story had a clearly identifiable plot.
-tss_coh_11,The story had a clear theme.
-tss_coh_12,The story lacked logic.
-tss_conch_1,Descriptions of characters in the story were consistent.
-tss_conch_2,Characters in the story were described in a contradicting manner.
-tss_conch_3,My understanding of the characters in the story is unclear.
-tss_conch_4,The way the characters were described was inconsistent.
-tss_conch_5,The descriptions of characters in the story were plausible.
-tss_conch_6,The behavior of characters in the story seemed completely random.
-tss_conch_7,How characters in the story acted seemed implausible.
-tss_conch_8,It was easy to understand the motivation of the characters in the story.
-tss_cre_1,The story felt dynamic.
-tss_cre_2,The story was boring.
-tss_cre_3,The plot development in the story was predictable.
-tss_cre_4,The story was creative.
-tss_cre_5,The story was imaginative.
-tss_cre_6,It was surprising how things turned out in the story.
-tss_cre_7,There were interesting twists and turns in the story.
-tss_cre_8,I was intrigued by the plot.
-tss_cre_9,The setting of the story was original.
-tss_cre_10,The story was unconventional.
-tss_cre_11,The plot was typical for this kind of story.
-tss_cre_12,The story was innovative.
-tss_qua_1,This story was enjoyable.
-tss_qua_2,This story is of high quality.
-tss_qua_3,The story was fun to read.
-tss_qua_4,The story made me want to keep reading.
-tss_qua_5,The story felt vivid.
-tss_qua_6,I liked this story.
-tss_qua_7,I would like to read more stories like this one.
-tss_qua_8,The story was well-written.
-tss_rep_1,The writing style was entertaining.
-tss_rep_2,This story avoided repetition.
-tss_rep_3,Many sentences in the story had frequently repeated words and phrases.
-tss_rep_4,The story was very repetitive.
-tss_rep_5,"In the story, the same things happened again and again."
-tss_rep_6,The writing seemed to use the same words over and over.
-tss_rep_7,Characters repeated their actions with little variation.
-tss_rep_8,The plot had no development.
-tss_rep_9,One character did something he or she had already done previously in this story.
-tss_rep_10,Characters said or did the same thing many times over.
-tss_rep_11,Characters repeated what other characters had said to them.
-tss_rep_12,Particular words were used too often in the story.
-tss_sty_1,There were similar events that occurred repeatedly in the story.
-tss_sty_2,This story used interesting language.
-tss_sty_3,The story had sentences that were unreadable
-tss_sty_4,The text contained a broad vocabulary.
-tss_sty_5,The story used complex vocabulary.
-tss_sty_6,The wording of this text was very precise.
-tss_sty_7,The text was easy to understand.
-tss_sty_8,The writing style was too complicated to be understood easily.
-tss_sty_9,The story contained a great deal of detail.
-tss_sty_10,The writing style of the story was very good.
-tss_sty_11,The author's choice of words was elegant
-tss_sty_12,The story had no obvious grammatical mistakes.
-tss_pac_1,The story moved at a fast pace.
-tss_pac_2,The story was exciting to read.
-tss_pac_3,It took a long time for things to happen in the story.
-tss_pac_4,The story dragged on and on.
-tss_pac_5,Nothing seemed to be happening in the story.
-tss_pac_6,There was plenty of action in the story.
-tss_pac_7,Many things seemed to be happening at once in the story.
-tss_pac_8,All elements of the story were relevant to the plot.
-tss_pac_9,There's nothing superfluous or unnecessary in this story.
+ss_coh_1,I had a hard time making sense of what was going on in the story.
+ss_coh_2,I had a hard time recognizing the thread of the story.
+ss_coh_3,The story appeared to be a single plot.
+ss_coh_4,The plot of the story was plausible.
+ss_coh_5,This story’s events occurred in a plausible order
+ss_coh_6,The story felt like a coherent story.
+ss_coh_7,The story felt like it contained a bunch of jumbled topics.
+ss_coh_8,The story stayed on topic with a consistent plot.
+ss_coh_9,The story felt like a series of disconnected sentences.
+ss_coh_10,The story had a clearly identifiable plot.
+ss_coh_11,The story had a clear theme.
+ss_coh_12,The story lacked logic.
+ss_conch_1,Descriptions of characters in the story were consistent.
+ss_conch_2,Characters in the story were described in a contradicting manner.
+ss_conch_3,My understanding of the characters in the story is unclear.
+ss_conch_4,The way the characters were described was inconsistent.
+ss_conch_5,The descriptions of characters in the story were plausible.
+ss_conch_6,The behavior of characters in the story seemed completely random.
+ss_conch_7,How characters in the story acted seemed implausible.
+ss_conch_8,It was easy to understand the motivation of the characters in the story.
+ss_cre_1,The story felt dynamic.
+ss_cre_2,The story was boring.
+ss_cre_3,The plot development in the story was predictable.
+ss_cre_4,The story was creative.
+ss_cre_5,The story was imaginative.
+ss_cre_6,It was surprising how things turned out in the story.
+ss_cre_7,There were interesting twists and turns in the story.
+ss_cre_8,I was intrigued by the plot.
+ss_cre_9,The setting of the story was original.
+ss_cre_10,The story was unconventional.
+ss_cre_11,The plot was typical for this kind of story.
+ss_cre_12,The story was innovative.
+ss_qua_1,This story was enjoyable.
+ss_qua_2,This story is of high quality.
+ss_qua_3,The story was fun to read.
+ss_qua_4,The story made me want to keep reading.
+ss_qua_5,The story felt vivid.
+ss_qua_6,I liked this story.
+ss_qua_7,I would like to read more stories like this one.
+ss_qua_8,The story was well-written.
+ss_rep_1,The writing style was entertaining.
+ss_rep_2,This story avoided repetition.
+ss_rep_3,Many sentences in the story had frequently repeated words and phrases.
+ss_rep_4,The story was very repetitive.
+ss_rep_5,"In the story, the same things happened again and again."
+ss_rep_6,The writing seemed to use the same words over and over.
+ss_rep_7,Characters repeated their actions with little variation.
+ss_rep_8,The plot had no development.
+ss_rep_9,One character did something he or she had already done previously in this story.
+ss_rep_10,Characters said or did the same thing many times over.
+ss_rep_11,Characters repeated what other characters had said to them.
+ss_rep_12,Particular words were used too often in the story.
+ss_sty_1,There were similar events that occurred repeatedly in the story.
+ss_sty_2,This story used interesting language.
+ss_sty_3,The story had sentences that were unreadable
+ss_sty_4,The text contained a broad vocabulary.
+ss_sty_5,The story used complex vocabulary.
+ss_sty_6,The wording of this text was very precise.
+ss_sty_7,The text was easy to understand.
+ss_sty_8,The writing style was too complicated to be understood easily.
+ss_sty_9,The story contained a great deal of detail.
+ss_sty_10,The writing style of the story was very good.
+ss_sty_11,The author's choice of words was elegant
+ss_sty_12,The story had no obvious grammatical mistakes.
+ss_pac_1,The story moved at a fast pace.
+ss_pac_2,The story was exciting to read.
+ss_pac_3,It took a long time for things to happen in the story.
+ss_pac_4,The story dragged on and on.
+ss_pac_5,Nothing seemed to be happening in the story.
+ss_pac_6,There was plenty of action in the story.
+ss_pac_7,Many things seemed to be happening at once in the story.
+ss_pac_8,All elements of the story were relevant to the plot.
+ss_pac_9,There's nothing superfluous or unnecessary in this story.
 qual_check_2,"This is a quality check. Please select ""Somewhat disagree""."

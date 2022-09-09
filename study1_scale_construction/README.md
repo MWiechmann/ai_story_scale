@@ -9,7 +9,7 @@ For this study, 398 participants were recruited from two sources: I gathered par
 * Community: Recruited from community forums of users of AI storytelling apps. Recruitment was carried out on the [NovelAI Discord](https://discord.com/invite/novelai), [NovelAI Reddit](https://discord.com/invite/novelai) and the [AI Multiverse Discord](https://discord.com/invite/puRyrw869h). (165 participants)
 * Panels: Recruited from panels for academic research ([SurveySwap.io](https://surveyswap.io/) and [SurveyCircle.com](https://www.surveycircle.com/)). (233 participants)
 
-The survey for participant panels did contain two additional quality-control items to sort out respondents with low data quality. This led to the exclusion of 72 participants, with 326 remaining participants in total (165 from the community sample, 161 from the panels sample).
+The survey for participant panels did contain two additional quality-control items to sort out respondents with low data quality. This led to the exclusion of 72 participants. Furthermore, three participants did not provide answers for all items and were also excluded. This left 323 participants for the analysis (162 from the community sample, 161 from the panels sample).
 
 ## Item Generation
 In order to draft the questions for the AISS, I took stock of existing scales for evaluating different aspects of stories. Existing research that I deemed relevant for evaluating subjective story experiences included are summarized in the following table:
