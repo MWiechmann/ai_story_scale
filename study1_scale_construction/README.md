@@ -36,75 +36,75 @@ The full list of tentative items, their source, and its final status in regards 
 
 | Item | Hypothesized Story Aspect | Source<sup>a | Retained For AISS-v1? | Reason For Elimination | Final Story Aspect |
 | ---- | ------------------------- | ------------ | --------------------- | ---------------------- | ------------------ |
-I had a hard time making sense of what was going on in the story. | Coherence | [Bussele & Bilandzic (2009)](http://hypermedia468.pbworks.com/w/file/fetch/80687372/measuring%20narrative%20engagement.pdf) | ✖ |  |  |
-I had a hard time recognizing the thread of the story. | Coherence|  [Bussele & Bilandzic (2009)](http://hypermedia468.pbworks.com/w/file/fetch/80687372/measuring%20narrative%20engagement.pdf) | ✖ |  |  |
-This story’s events occurred in a plausible order. | Coherence | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ |  |  |
+I had a hard time making sense of what was going on in the story. | Coherence | [Bussele & Bilandzic (2009)](http://hypermedia468.pbworks.com/w/file/fetch/80687372/measuring%20narrative%20engagement.pdf) | ✖ | Multicollinearity / Redundancy |  |
+I had a hard time recognizing the thread of the story. | Coherence|  [Bussele & Bilandzic (2009)](http://hypermedia468.pbworks.com/w/file/fetch/80687372/measuring%20narrative%20engagement.pdf) | ✖ | Multicollinearity / Redundancy |  |
+This story’s events occurred in a plausible order. | Coherence | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ | Multicollinearity / Redundancy |  |
 The story appeared to be a single plot. | Coherence | [Tambwekar et al. (2019)](https://arxiv.org/pdf/1809.10736.pdf) | ✔ |  | Coherence |
 The plot of the story was plausible. | Coherence | Own | ✔ |  | Coherence |
 The story had a clear theme. | Coherence | Own | ✔ |  | Coherence |
 The story felt like a coherent story. | Coherence | Own | ✔ |  | Coherence |
-The story felt like it contained a bunch of jumbled topics. | Coherence | Own | ✖ |  |  |
+The story felt like it contained a bunch of jumbled topics. | Coherence | Own | ✖ | Multicollinearity / Redundancy |  |
 The story stayed on topic with a consistent plot. | Coherence | Own | ✖ |  |  |
 The story felt like a series of disconnected sentences. | Coherence | Own | ✖ |  |  |
-The story had a clearly identifiable plot. | Coherence | Own | ✖ |  |  |
-The story lacked logic. | Coherence | Own | ✖ |  |  |
+The story had a clearly identifiable plot. | Coherence | Own | ✖ | Multicollinearity / Redundancy |  |
+The story lacked logic. | Coherence | Own | ✖ | Multicollinearity / Redundancy |  |
 Descriptions of characters in the story were consistent. | Consistent Characterization | Own | ✔ |  | Consistent Characterization |
 Characters in the story were described in a contradicting manner. | Consistent Characterization | Own | ✔ |  | Consistent Characterization |
 The way the characters were described was inconsistent. | Consistent Characterization | Own | ✔ |  | Consistent Characterization |
 The behavior of characters in the story seemed completely random. | Consistent Characterization | Own | ✔ |  | Coherence |
-My understanding of the characters in the story is unclear. | Consistent Characterization | Own | ✖ |  |  |
+My understanding of the characters in the story is unclear. | Consistent Characterization | Own | ✖ | Multicollinearity / Redundancy |  |
 The descriptions of characters in the story were plausible. | Consistent Characterization | Own | ✖ |  |  |
 How characters in the story acted seemed implausible. | Consistent Characterization | Own | ✖ |  |  |
 It was easy to understand the motivation of the characters in the story. | Consistent Characterization | Own | ✖ |  |  |
-This story was enjoyable. | Creativity | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ |  |  |
-The story felt dynamic. | Creativity | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
-The story was boring. | Creativity | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
+The story felt dynamic. | Creativity | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ | Multicollinearity / Redundancy |  |
+The story was boring. | Creativity | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ | Multicollinearity / Redundancy |  |
 The setting of the story was original. | Creativity | Own | ✔ |  | Creativity/Quality |
 The story was innovative. | Creativity | Own | ✔ |  | Creativity/Quality |
 The plot development in the story was predictable. | Creativity | Own | ✔ |  | Coherence |
-The story was creative. | Creativity | Own | ✖ |  |  |
-The story was imaginative. | Creativity | Own | ✖ |  |  |
+The story was creative. | Creativity | Own | ✖ | Multicollinearity / Redundancy |  |
+The story was imaginative. | Creativity | Own | ✖ | Multicollinearity / Redundancy |  |
 It was surprising how things turned out in the story. | Creativity | Own | ✖ |  |  |
 There were interesting twists and turns in the story. | Creativity | Own | ✖ |  |  |
-I was intrigued by the plot. | Creativity | Own | ✖ |  |  |
-The story was unconventional. | Creativity | Own | ✖ |  |  |
-The plot was typical for this kind of story. | Creativity | Own | ✖ |  |  |
+I was intrigued by the plot. | Creativity | Own | ✖ | Multicollinearity / Redundancy |  |
+The story was unconventional. | Creativity | Own | ✖ | Multicollinearity / Redundancy |  |
+The plot was typical for this kind of story. | Creativity | Own | ✖ | Multicollinearity / Redundancy |  |
 This story was of high quality. | General Quality | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✔ |  | Creativity/Quality |
-The story was fun to read. | General Quality | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
-The story made me want to keep reading. | General Quality | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
-The story felt vivid. | General Quality | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
+This story was enjoyable. | General Quality | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ | Multicollinearity / Redundancy |  |
+The story was fun to read. | General Quality | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ | Multicollinearity / Redundancy |  |
+The story made me want to keep reading. | General Quality | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ | Multicollinearity / Redundancy |  |
+The story felt vivid. | General Quality | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ | Multicollinearity / Redundancy |  |
 I would like to read more stories like this one. | General Quality | Own | ✔ |  | Creativity/Quality |
-I liked this story. | General Quality | Own | ✖ |  |  |
-The story was well-written. | General Quality | Own | ✖ |  |  |
-The writing style was entertaining. | General Quality | Own | ✖ |  |  |
+I liked this story. | General Quality | Own | ✖ | Multicollinearity / Redundancy |  |
+The story was well-written. | General Quality | Own | ✖ | Multicollinearity / Redundancy |  |
+The writing style was entertaining. | General Quality | Own | ✖ | Multicollinearity / Redundancy |  |
 This story avoided repetition. | Repetitiveness | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ |  |  |
 Many sentences in the story had frequently repeated words and phrases. | Repetitiveness | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
 The story was very repetitive. | Repetitiveness | Own | ✖ |  |  |
 In the story, the same things happened again and again. | Repetitiveness | Own | ✖ |  |  |
-The writing seemed to use the same words over and over. | Repetitiveness | Own | ✖ |  |  |
-Characters repeated their actions with little variation. | Repetitiveness | Own | ✖ |  |  |
+The writing seemed to use the same words over and over. | Repetitiveness | Own | ✖ | Multicollinearity / Redundancy |  |
+Characters repeated their actions with little variation. | Repetitiveness | Own | ✖ | Multicollinearity / Redundancy |  |
 The plot had no development. | Repetitiveness | Own | ✔ |  | Pace |
 One character did something he or she had already done previously in this story. | Repetitiveness | Own | ✖ |  |  |
-Characters said or did the same thing many times over. | Repetitiveness | Own | ✖ |  |  |
+Characters said or did the same thing many times over. | Repetitiveness | Own | ✖ | Multicollinearity / Redundancy |  |
 Characters repeated what other characters had said to them. | Repetitiveness | Own | ✖ |  |  |
-Particular words were used too often in the story. | Repetitiveness | Own | ✖ |  |  |
-There were similar events that occurred repeatedly in the story. | Repetitiveness | Own | ✖ |  |  |
-This story used interesting language. | Writing Style | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ |  |  |
+Particular words were used too often in the story. | Repetitiveness | Own | ✖ | Multicollinearity / Redundancy |  |
+There were similar events that occurred repeatedly in the story. | Repetitiveness | Own | ✖ | Multicollinearity / Redundancy |  |
+This story used interesting language. | Writing Style | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ | Multicollinearity / Redundancy |  |
 The story had sentences that were unreadable. | Writing Style | [Inspired by DeLucia, Mueller & Li (2021)](https://arxiv.org/pdf/2010.07375.pdf) | ✖ |  |  |
 The story used complex vocabulary. | Writing Style | Own | ✔ |  | Creativity/Quality |
-The text contained a broad vocabulary. | Writing Style | Own | ✖ |  |  |
-The wording of this text was very precise. | Writing Style | Own | ✖ |  |  |
-The text was easy to understand. | Writing Style | Own | ✖ |  |  |
+The text contained a broad vocabulary. | Writing Style | Own | ✖ | Multicollinearity / Redundancy |  |
+The wording of this text was very precise. | Writing Style | Own | ✖ | Multicollinearity / Redundancy |  |
+The text was easy to understand. | Writing Style | Own | ✖ | Multicollinearity / Redundancy |  |
 The writing style was too complicated to be understood easily. | Writing Style | Own | ✖ |  |  |
 The story contained a great deal of detail. | Writing Style | Own | ✖ |  |  |
-The writing style of the story was very good. | Writing Style | Own | ✖ |  |  |
+The writing style of the story was very good. | Writing Style | Own | ✖ | Multicollinearity / Redundancy |  |
 The author's choice of words was elegant. | Writing Style | Own | ✖ |  |  |
-The story had no obvious grammatical mistakes. | Writing Style | Own | ✖ |  |  |
+The story had no obvious grammatical mistakes. | Writing Style | Own | ✖ | Multicollinearity / Redundancy |  |
 The story moved at a fast pace. | Pace | Own | ✔ |  | Pace |
 It took a long time for things to happen in the story. | Pace | Own | ✔ |  | Pace |
 Nothing seemed to be happening in the story. | Pace | Own | ✔ |  | Pace |
 The story was exciting to read. | Pace | Own | ✔ |  | Creativity/Quality |
-The story dragged on and on. | Pace | Own | ✖ |  |  |
+The story dragged on and on. | Pace | Own | ✖ | Multicollinearity / Redundancy |  |
 There was plenty of action in the story. | Pace | Own | ✖ |  |  |
 Many things seemed to be happening at once in the story. | Pace | Own | ✖ |  |  |
 All elements of the story were relevant to the plot. | Pace | Own | ✖ |  |  |
