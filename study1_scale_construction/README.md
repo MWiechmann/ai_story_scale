@@ -3,7 +3,8 @@ This is the initial study for drafting the items for the AISS, and exploring the
 
 This study also contains a few proof-of-concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different type of stories.
 
-## Participants
+## Method
+### Participants
 For this study, 398 participants were recruited from two sources: I gathered participants from the community of users of AI storytelling apps as well as from panels for academic research.
 
 * Community: Recruited from community forums of users of AI storytelling apps. Recruitment was carried out on the [NovelAI Discord](https://discord.com/invite/novelai), [NovelAI Reddit](https://discord.com/invite/novelai) and the [AI Multiverse Discord](https://discord.com/invite/puRyrw869h). (165 participants)
@@ -11,7 +12,7 @@ For this study, 398 participants were recruited from two sources: I gathered par
 
 The survey for participant panels did contain two additional quality-control items to sort out respondents with low data quality. This led to the exclusion of 72 participants. Furthermore, three participants did not provide answers for all items and were also excluded. This left 323 participants for the analysis (162 from the community sample, 161 from the panels sample).
 
-## Item Generation
+### Item Generation
 In order to draft the questions for the AISS, I took stock of existing scales for evaluating different aspects of stories. Existing research that I deemed relevant for evaluating subjective story experiences included are summarized in the following table:
 
 | Authors (Year) | Title | Measured Factors (# Items) | Psychometric Validation? | Notes |
@@ -27,7 +28,7 @@ I then categorized these existing items into different hypothesized story aspect
 
 Furthermore, I interviewed various users of AI storytelling apps to gather feedback on what aspects of AI-generated stories they deem important. Based on these interviews, I reviewed the existing list of items gathered from existing research and decided to add two more tentative story aspects, namely consistent characterization and pace.
 
-After establishing these 7 initial story aspects, I inspected the number of items per story aspect. In accordance with common guidelines for scale construction I aimed for 8-12 provisional items per factor, anticipating that I would discard roughly half of my drafted items ([Hinkins et al., 1998](https://journals.sagepub.com/doi/abs/10.1177/109442819800100106)). Therefore, I drafted additional items as needed in order to create a solid base for later scale construction. This led to a total of 74 provisional items for the first draft of the AISS.
+After establishing these 7 initial story aspects, I inspected the number of items per story aspect. In accordance with common guidelines for scale construction I aimed for 8-12 provisional items per factor, anticipating that I would discard roughly half of my drafted items ([Hinkins et al., 1998](https://journals.sagepub.com/doi/abs/10.1177/109442819800100106)). Therefore, I drafted additional items as needed in order to create a solid base for later scale construction. This led to a total of 73 provisional items for the first draft of the AISS.
 
 The full list of tentative items, their source, and its final status in regards to the AISS can be viewed when clicking the line below.
 
@@ -114,7 +115,13 @@ _Notes: a = Some items were modified to be more consistent with the rest of the 
 
 </details>
 
-## Procedure and Materials
-After signing an informed consent, participants first read a story excerpt of roughly 5 minute reading time (_M_ = ??, _SD_ = ??). For participants from the panel sample, the story excerpt was followed by the first quality-control question. Subsequently, participants read...
+### Procedure
+After signing an informed consent, participants first read a story excerpt of roughly 5 minute reading time. For participants from the panel sample, the story excerpt was followed by the first quality-control question. Subsequently, participants evaluated the story excerpts on the 73 provisonal items for the AISS.
 
-answered demographic questions, followed by questions on their subjective exposure to ethnic diversity. Subsequently, participants completed the brief version of the Barratt Impulsiveness Scale (BIS-Brief; Steinberg et al., 2013), and the Academic Delay of Gratification Scale (ADOG; Bembenutty & Karabenick, 1998). After completion of the study, participants were thanked for participation and debriefed.
+## Results
+### Item Reduction
+#### Preliminary Analysis
+Initial inspection of the intercorrelations between the items showed a sufficient number of correlations above the recommended threshold of |_r_| > .3 ([Tabachnik, Fidell, 2018](https://www.pearson.com/en-us/subject-catalog/p/using-multivariate-statistics/P200000003097?view=educator)). However, the determinant was far below the recommend threshold of _det_ > .00001, indicating strong multicollinearity and the presence of redundant items. To address this issue, I removed the item with the highest variance inflation factor (VIF) in an iterative process, until the determinant was above .00001. This resulted in the exclusion of 42 questions with 31 remaining items, _det_ = 00002.
+The appropriateness of exploratory factor analysis (EFA) for this data was assessed using the Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy. The KMO indicated that the data was well-suited for EFA, _KMO_ = .86.
+#### Exploratory Factor Analysis
+
