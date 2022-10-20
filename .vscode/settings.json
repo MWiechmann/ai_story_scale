@@ -1,4 +1,5 @@
 {
     "markdowntable.alignColumnHeader": false,
-    "markdowntable.alignData": false
+    "markdowntable.alignData": false,
+    "python.analysis.typeCheckingMode": "basic"
 }
