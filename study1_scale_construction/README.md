@@ -41,11 +41,11 @@ I had a hard time making sense of what was going on in the story. | Coherence | 
 I had a hard time recognizing the thread of the story. | Coherence|  [Bussele & Bilandzic (2009)](http://hypermedia468.pbworks.com/w/file/fetch/80687372/measuring%20narrative%20engagement.pdf) | ✖ | Multicollinearity / Redundancy |  |
 This story’s events occurred in a plausible order. | Coherence | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf) | ✖ | Multicollinearity / Redundancy |  |
 The story appeared to be a single plot. | Coherence | [Tambwekar et al. (2019)](https://arxiv.org/pdf/1809.10736.pdf) | ✔ |  | Coherence |
-The plot of the story was plausible. | Coherence | Own | ✔ |  | Coherence |
+The story stayed on topic with a consistent plot. | Coherence | Own | ✔ |  | Coherence |
 The story had a clear theme. | Coherence | Own | ✔ |  | Coherence |
 The story felt like a coherent story. | Coherence | Own | ✔ |  | Coherence |
+The plot of the story was plausible. | Coherence | Own | ✖ | Multicollinearity / Redundancy | |
 The story felt like it contained a bunch of jumbled topics. | Coherence | Own | ✖ | Multicollinearity / Redundancy |  |
-The story stayed on topic with a consistent plot. | Coherence | Own | ✖ |  |  |
 The story felt like a series of disconnected sentences. | Coherence | Own | ✖ |  |  |
 The story had a clearly identifiable plot. | Coherence | Own | ✖ | Multicollinearity / Redundancy |  |
 The story lacked logic. | Coherence | Own | ✖ | Multicollinearity / Redundancy |  |
@@ -105,10 +105,10 @@ The story moved at a fast pace. | Pace | Own | ✔ |  | Pace |
 It took a long time for things to happen in the story. | Pace | Own | ✔ |  | Pace |
 Nothing seemed to be happening in the story. | Pace | Own | ✔ |  | Pace |
 The story was exciting to read. | Pace | Own | ✔ |  | Creativity/Quality |
+All elements of the story were relevant to the plot. | Pace | Own | ✔ |  | Coherence |
 The story dragged on and on. | Pace | Own | ✖ | Multicollinearity / Redundancy |  |
 There was plenty of action in the story. | Pace | Own | ✖ |  |  |
 Many things seemed to be happening at once in the story. | Pace | Own | ✖ |  |  |
-All elements of the story were relevant to the plot. | Pace | Own | ✖ |  |  |
 There's nothing superfluous or unnecessary in this story. | Pace | Own | ✖ |  |  |
 
 _Notes: a = Some items were modified to be more consistent with the rest of the scale._

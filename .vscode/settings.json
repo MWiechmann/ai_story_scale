@@ -1,5 +1,3 @@
 {
-    "markdowntable.alignColumnHeader": false,
-    "markdowntable.alignData": false,
-    "python.analysis.typeCheckingMode": "basic"
+"isGitignoreExtActive": true,
 }

@@ -1,2 +1,8 @@
 /study1_scale_construction/data/raw
 /study1_scale_construction/google_studio
+
+# Visual Studio Code
+.vscode/
+
+# Jupyter Notebook
+**/.ipynb_checkpoints
