@@ -22,7 +22,7 @@ efa-utils = "^0.7.2"
 reliabilipy = "^0.0.35"
 pingouin = "^0.5.2"
 sklearn = "^0.0.post1"
-anova-utils = "^0.1.5"
+anova-utils = "^0.3.1"
 # anova-utils = {version = "^0.1.4", source = "testpypi"}
 
 # [[tool.poetry.source]]
