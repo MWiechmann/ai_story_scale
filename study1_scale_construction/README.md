@@ -1,7 +1,7 @@
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
 
-This study also contains a few proof-of-concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different type of stories.
+This study also contains a few proof-of-concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different types of stories.
 
 ## Method
 ### Participants
@@ -10,10 +10,10 @@ For this study, 398 participants were recruited from two sources: I gathered par
 * Community: Recruited from community forums of users of AI storytelling apps. Recruitment was carried out on the [NovelAI Discord](https://discord.com/invite/novelai), [NovelAI Reddit](https://discord.com/invite/novelai) and the [AI Multiverse Discord](https://discord.com/invite/puRyrw869h). (165 participants)
 * Panels: Recruited from panels for academic research ([SurveySwap.io](https://surveyswap.io/) and [SurveyCircle.com](https://www.surveycircle.com/)). (233 participants)
 
-The survey for participant panels did contain two additional quality-control items to sort out respondents with low data quality. This led to the exclusion of 72 participants. Furthermore, three participants did not provide answers for all items and were also excluded. This left 323 participants for the analysis (162 from the community sample, 161 from the panels sample).
+The survey for participant panels did contain two additional quality-control items to sort out respondents with low data quality. This led to excluding 72 participants. Furthermore, three participants did not provide answers for all items and were also excluded. This left 323 participants for the analysis (162 from the community sample, 161 from the panels sample).
 
 ### Item Generation
-In order to draft the questions for the AISS, I took stock of existing scales for evaluating different aspects of stories. Existing research that I deemed relevant for evaluating subjective story experiences included are summarized in the following table:
+To draft the questions for the AISS, I took stock of existing scales for evaluating different aspects of stories. Existing research that I deemed relevant for evaluating subjective story experiences included are summarized in the following table:
 
 | Authors (Year) | Title | Measured Factors (# Items) | Psychometric Validation? | Notes |
 |-|-|-|-|-|
@@ -28,9 +28,9 @@ I then categorized these existing items into different hypothesized story aspect
 
 Furthermore, I interviewed various users of AI storytelling apps to gather feedback on what aspects of AI-generated stories they deem important. Based on these interviews, I reviewed the existing list of items gathered from existing research and decided to add two more tentative story aspects, namely consistent characterization and pace.
 
-After establishing these 7 initial story aspects, I inspected the number of items per story aspect. In accordance with common guidelines for scale construction I aimed for 8-12 provisional items per factor, anticipating that I would discard roughly half of my drafted items ([Hinkins et al., 1998](https://journals.sagepub.com/doi/abs/10.1177/109442819800100106)). Therefore, I drafted additional items as needed in order to create a solid base for later scale construction. This led to a total of 73 provisional items for the first draft of the AISS.
+After establishing these 7 initial story aspects, I inspected the number of items per story aspect. In accordance with common guidelines for scale construction, I aimed for 8-12 provisional items per factor, anticipating that I would discard roughly half of my drafted items ([Hinkins et al., 1998](https://journals.sagepub.com/doi/abs/10.1177/109442819800100106)). Therefore, I drafted additional items as needed to create a solid base for later scale construction. This led to a total of 73 provisional items for the first draft of the AISS.
 
-The full list of tentative items, their source, and its final status in regards to the AISS can be viewed when clicking the line below.
+The full list of tentative items, their source, and its final status regarding the AISS can be viewed when clicking the line below.
 
 <details>
 <summary>Click here to view the table with all provisional items.</summary>
@@ -116,8 +116,36 @@ _Notes: a = Some items were modified to be more consistent with the rest of the 
 
 </details>
 
-### Procedure
-After signing an informed consent, participants first read a story excerpt of roughly 5 minute reading time. For participants from the panel sample, the story excerpt was followed by the first quality-control question. Subsequently, participants evaluated the story excerpts on the 73 provisonal items for the AISS.
+### Procedure And Materials
+After signing an informed consent, participants first read a story excerpt generated by a generative pre-trained transformer (GPT) model. Each story excerpt had a reading time of roughly 5 minutes. For participants from the panel sample, the story excerpt was followed by the first quality-control question. Subsequently, participants evaluated the story excerpts on the 73 provisional items for the AISS.
+
+#### Story Excerpts
+320 Story excerpts were generated by using the [NovelAI Research Tool (`nrt`)](https://github.com/wbrown/novelai-research-tool). Through `nrt`, a short prompt and "memory" text (explained below) was sent to Euterpe, a finetune of the [Fairseq GPT-13B model](https://github.com/facebookresearch/fairseq/tree/main/examples/moe_lm) offered by [NovelAI](https://novelai.net/). The prompt and memory text served to establish the genre (High Fantasy, Hard Sci-Fi, Historical Romance or Horror). For each story excerpt, Euterpe ran through 30 generations using one NAI's predefined generation settings (called "presets" within NAI). A total of 8 default presets was used for story generation, and the max character length set to 40. The results were 320 story excerpts (40 per preset) with a word count of 744 to 1499 (_M_ = 1175.17, _SD_ = 117.12, about 5 minutes reading time).
+
+##### Prompt/Memory Pairs
+Story generation made use of a prompt and "memory" text. The prompt formed the base for the initial input to the model. In addition, the "memory" functionality of NAI was used. Memory in this context denotes a set of tokens that is always used to build the top of the context window. This is a way to ensure that the model always "remembers" a certain set of tokens essentially to the story generation. In this case, the memory function was used to ensure that the model always remembered the genre of the story. Stories in the NAI finetune corpus are known to be manually meta-tagged in the following manner
+
+```
+[Author: <Author Name>; Title: <Title>; Tags: <Tags>; Genre: <Genre>]
+```
+
+As an example, a hypothetical book from J.K. Rowling could be tagged as:
+
+```
+[ Author: J.K. Rowling; Title: The Raining Night; Tags: deserted tropical island, time travel; Genre: horror ]
+```
+
+As I was only interested in keeping the genre at least somewhat consistent for one specific memory/prompt pair, only the `Genre:` tag was used. The specific memory/prompt pairs used for the study are listed below:
+
+| Label | Memory | Prompt |
+|---|---|---|
+| **Hard Sci-Fi** | \[ Author: ; Tags: ; Genre: Hard Sci-fi \] | "I have a message for you from the president," said Dr. Sato, handing over an envelope to me. "He's asking that we meet with him at his office this afternoon." I took it and thanked her before walking out of my apartment building into the bright sun. It was already noon on Mars—the longest day in the year here on the planet. |
+| **High Fantasy** | \[ Author: ; Tags: ; Genre: High Fantasy \] | The sun was high in the sky when they arrived at their destination. The valley of the River Tethys flowed into a wide, shallow lake surrounded by mountains on all sides. A small village sat along its shores with two towers standing guard over it from either side like sentinels. It looked to be deserted but for some smoke rising up out of chimneys and the occasional bird flying overhead or flitting through trees. |
+| **Historical Romance** | \[ Author: ; Tags: ; Genre: Historical Romance \] | The first time he saw her, the sight of her was like a slap across his face. She'd come into the tavern where he worked and sat at one of the tables in front of him. |
+| **Horror** | \[ Author: ; Tags: ; Genre: Horror \] | I woke up to hear knocking on glass. At first, I thought it was the window until I heard it come from the mirror again. I got out of bed and walked over to the mirror. When I looked into it, there was a face looking back at me. |
+
+##### Generation Settings (Presets)
+...
 
 ## Results
 ### Item Reduction
