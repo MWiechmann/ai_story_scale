@@ -1,3 +1,17 @@
+- [Study 1: Building the AI Story Scale](#study-1-building-the-ai-story-scale)
+  - [Method](#method)
+    - [Participants](#participants)
+    - [Item Generation](#item-generation)
+    - [Procedure And Materials](#procedure-and-materials)
+      - [Story Excerpts](#story-excerpts)
+        - [Prompt/Memory Pairs](#promptmemory-pairs)
+        - [Generation Settings (Presets)](#generation-settings-presets)
+      - [Quality-Control Questions](#quality-control-questions)
+  - [Results](#results)
+    - [Item Reduction](#item-reduction)
+      - [Preliminary Analysis](#preliminary-analysis)
+      - [Exploratory Factor Analysis](#exploratory-factor-analysis)
+
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
 
@@ -170,6 +184,14 @@ To ensure that participants from the panel sample were providing valid responses
 
 The first question immediatly followed the story excerpt and asked the participant how the story they just read began. The participant was asked to select one of six options. If the chosen option coincided with the content of the story, the first quality check was passed.
 
+> The story I just read, began with...
+> *   ...with a message from the president.
+> *   ...the description of a small village.
+> *   ...a noise coming from a mirror.
+> *   ...someone working in a tavern.
+> *   ...two armies clashing in a battle.
+> *   ...someone waking up in a spaceship.
+
 The second question was mixed in with the provisional AISS items and simply stated:
 
 > This is a quality check. Please select "Somewhat disagree".
@@ -182,4 +204,8 @@ To pass this quality check, the participant had to select "Somewhat disagree" fo
 Initial inspection of the intercorrelations between the items showed a sufficient number of correlations above the recommended threshold of |_r_| > .3 ([Tabachnik, Fidell, 2018](https://www.pearson.com/en-us/subject-catalog/p/using-multivariate-statistics/P200000003097?view=educator)). However, the determinant was far below the recommend threshold of _det_ > .00001, indicating strong multicollinearity and the presence of redundant items. To address this issue, I removed the item with the highest variance inflation factor (VIF) in an iterative process, until the determinant was above .00001. This resulted in the exclusion of 42 questions with 31 remaining items, _det_ = 00002.
 The appropriateness of exploratory factor analysis (EFA) for this data was assessed using the Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy. The KMO indicated that the data was well-suited for EFA, _KMO_ = .86.
 #### Exploratory Factor Analysis
+The EFA was conducted using the minimum residual (MINRES) algorithm.
+##### Number Of Factors
+The decision on the number of factors to retain was based on a [parallel analysis](
 
+... use 10% standard of 99th percentile!
