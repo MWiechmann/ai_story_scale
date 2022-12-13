@@ -8,9 +8,13 @@
         - [Generation Settings (Presets)](#generation-settings-presets)
       - [Quality-Control Questions](#quality-control-questions)
   - [Results](#results)
-    - [Item Reduction](#item-reduction)
+    - [Scale Construction](#scale-construction)
       - [Preliminary Analysis](#preliminary-analysis)
       - [Exploratory Factor Analysis](#exploratory-factor-analysis)
+        - [Number Of Factors](#number-of-factors)
+        - [Initial Factor Solution](#initial-factor-solution)
+        - [Refinement of Factor Solution](#refinement-of-factor-solution)
+    - [AISS Application Examples](#aiss-application-examples)
 
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
@@ -199,13 +203,99 @@ The second question was mixed in with the provisional AISS items and simply stat
 To pass this quality check, the participant had to select "Somewhat disagree" for this item.
 
 ## Results
-### Item Reduction
+### Scale Construction
 #### Preliminary Analysis
 Initial inspection of the intercorrelations between the items showed a sufficient number of correlations above the recommended threshold of |_r_| > .3 ([Tabachnik, Fidell, 2018](https://www.pearson.com/en-us/subject-catalog/p/using-multivariate-statistics/P200000003097?view=educator)). However, the determinant was far below the recommend threshold of _det_ > .00001, indicating strong multicollinearity and the presence of redundant items. To address this issue, I removed the item with the highest variance inflation factor (VIF) in an iterative process, until the determinant was above .00001. This resulted in the exclusion of 42 questions with 31 remaining items, _det_ = 00002.
 The appropriateness of exploratory factor analysis (EFA) for this data was assessed using the Kaiser-Meyer-Olkin (KMO) measure of sampling adequacy. The KMO indicated that the data was well-suited for EFA, _KMO_ = .86.
 #### Exploratory Factor Analysis
-The EFA was conducted using the minimum residual (MINRES) algorithm.
 ##### Number Of Factors
-The decision on the number of factors to retain was based on a [parallel analysis](
+The decision on the number of factors to retain was based on a parallel analysis ([Horn, 1965](http://dx.doi.org/10.1007/BF02289447); [Glorfeld, 1995](http://dx.doi.org/10.1177/0013164495055003002)) as well as an inspection of the scree plot. I therefore decided to obtain a four- as well as a five-factor solution, and to compare the stability and interpretability of the factors across the two solutions.
 
-... use 10% standard of 99th percentile!
+Both the four- and five-factor solutions resulted in interpretable factors. Ultimately, I chose the five-factor solution for further analysis, because it had the maximum number of factors that had good support from the scree-plot and parallel analysis. This solution will be described in more detail below.
+
+##### Initial Factor Solution
+To obtain the initial five-factor solution, I used the minimum residual (MINRES) algorithm with direct oblimin rotation. I used an iterative process to obtain the solution, excluding items that showed low communality or that did not conform well to a simple structure. The criteria for retaining items were:
+*  _Communality_ > .2
+*  _Main Loading_ > .4
+*  _Cross Loading_ < .3
+*  _Main Loading_ - _Cross Loading_ > .2
+Items that did not meet these criteria were excluded from the analysis, and the EFA was rerun until all remaining items met the criteria. This led to the exclusion of 9 items, with 22 remaining items.
+
+The resulting factors were interpreted according to the 1-2 items that loaded most strongly on them. The interpretation of factors, their number of items and internal reliability are listed below:
+
+| Factor # | Interpretation | Number of Items | Omega Total | Omega Hierarchical |
+|---|---|---|---|---|
+| 1 | Creativity & Quality | 6 | .85 | -ᵃ |
+| 2 | Coherence | 6 | .81 | .63 |
+| 3 | Repetitiveness | 4 | .77 | .32 |
+| 4 | Slow Pace | 4 | .75 | -ᵃ |
+| 5 | Inconsistent Characterizations | 2 | -ᵇ | -ᵇ |
+
+ᵃ: Heywood case for common factor. Omega Hierachical could not be reliably estimated.\
+ᵇ: Only 2 items. Omega could not be computed. Spearman-Brown reliability coefficient was 0.76.
+
+##### Refinement of Factor Solution
+While the initial factor solution was interpretable, it was not optimal. Factor 5 consisted only of 2 items, which might be too low for a reliable measurement of the factor. Furthermore estimation of the common factor lead to a Heywood case for two factors, indicating that a single factor model was not appropriate. For the remaining factors, estimates of omega hierarchical were not satisfactory. Therefore, I undertook several steps to improve the factor solution.
+
+Omega hierarchical for repetitiveness could be improved by removing a problematic item ("Characters repeated what other characters had said to them."), leading to reliability estimates of omega total = .77 and omega hierachical = .62.
+
+Furthermore, I inspected the structure of the group factors for the remaining problematic factors. The creativity/quality factor seemed to be made up of three subfactors: creativity, quality and writing complexity. The coherence factor seemed to be made up of potentially up to four subfactors: narrative unity (one single theme/plot/etc), relevance, narrative focus (limited number of things happening at once) and predictability. Slow Pace seemed to be made up of two sub-scales, but those were not immediatly interpretable.
+
+Overall, it appeared that the factors might benefit from additinal items to better capture the underlying constructs. The initial exclusion of items for multicollinearity might have been too strict as it might have led to the exclusion of items that were important for the factor structure. With more clearly defined factors, I therefore decided to tentatively add back a selected set of items that seemed to complement the obtained factors. After those items were added back, I reran the full EFA, including prelimary checks for multicollinearity and the removal of items that did not meet the criteria for retention.
+
+This led to a final factor solution with 26 items. The rotated loadings for the final factor solution are shown below:
+
+| Item # | Description | Factor 1 | Factor 2 | Factor 3 | Factor 4 | Factor 5 |
+|---|---|---|---|---|---|---|
+| 1 | The plot of the story was plausible. | **.62** | -.04 | .12 | .12 | -.03 |
+| 2 | I had a hard time recognizing the thread of the story. | **-.66** | .03 | .08 | .18 | .15 |
+| 3 | The story had a clear theme. | **.65** | -.02 | .04 | -.12 | .02 |
+| 4 | The plot development in the story was predictable. | **.63** | .01 | -.10 | .18 | .12 |
+| 5 | The story appeared to be a single plot. | **.60** | .06 | -.05 | .06 | -.02 |
+| 6 | The story felt like a coherent story. | **.55** | -.02 | .24 | .10 | -.20 |
+| 7 | All elements of the story were relevant to the plot. | **.51** | .11 | .20 | -.23 | -.07 |
+| 8 | Many things seemed to be happening at once in the story. | **-.46** | .06 | .16 | -.11 | .16 |
+| 9 | This story’s events occurred in a plausible order. | **.45** | -.10 | .08 | .03 | -.24 |
+| 10 | Characters said or did the same thing many times over. | .06 | **.82** | .06 | .02 | .04 |
+| 11 | One character did something he or she had already done previously in this story. | .05 | **.77** | .00 | -.06 | -.02 |
+| 12 | Characters repeated their actions with little variation. | .06 | **.75** | .04 | .11 | -.02 |
+| 13 | Many sentences in the story had frequently repeated words and phrases. | -.03 | **.70** | .00 | -.05 | .00 |
+| 14 | This story avoided repetition. | .04 | **-.68** | .19 | -.02 | .01 |
+| 15 | The story was innovative. | -.21 | .03 | **.64** | -.14 | -.10 |
+| 16 | This story is of high quality. | .19 | -.13 | **.62** | .04 | -.09 |
+| 17 | I would like to read more stories like this one. | .28 | -.09 | **.58** | -.04 | .07 |
+| 18 | The story used complex vocabulary. | -.04 | .05 | **.53** | .05 | .02 |
+| 19 | The setting of the story was original. | -.10 | -.03 | **.52** | .05 | .02 |
+| 20 | The story contained a great deal of detail. | .05 | .01 | **.48** | .09 | .04 |
+| 21 | It took a long time for things to happen in the story. | .04 | .04 | .17 | **.70** | .01 |
+| 22 | Nothing seemed to be happening in the story. | -.05 | .04 | -.16 | **.62** | .00 |
+| 23 | The story moved at a fast pace. | -.16 | -.03 | .07 | **-.54** | .13 |
+| 24 | The plot had no development. | -.24 | .07 | -.14 | **.49** | .05 |
+| 25 | The way the characters were described was inconsistent. | -.02 | .02 | .02 | -.02 | **.79** |
+| 26 | Characters in the story were described in a contradicting manner. | .02 | .00 | .02 | -.02 | **.77** |
+
+Similar to the factors obtained in the initial five-factor solution, I interpreted factor 1 to represent a story's perceived coherence, factor 2 repetetiveness, factor 3 a story's creativity and quality, factor 4 slow pace, and factor 5 inconstent characterizations. 
+
+Further inspection of the factors revealed a few items whose removal improved the reliability of the factors.
+
+For the coherence factor, removal of item 4 ("The plot development in the story was predictable.") and 8 ("Many things seemed to be happening at once in the story.") improved the reliability of the factor.
+
+For the creativity/quality factor, I removed item 18 ("The story used complex vocabulary.") and 20 ("The story contained a great deal of detail.") to improve the reliability of the factor.
+
+As a last step, the direction of some factors were reversed so that all factors reflect a positive direction. The interpretation of the final factors, their number of items and internal reliability are listed below:
+
+| Factor # | Interpretation | Number of Items | Omega Total | Omega Hierarchical |
+|---|---|---|---|---|
+| 1 | Coherence | 7 | .87 | .77 |
+| 2 | Avoid Repetitiveness | 5 | .87 | .85 |
+| 3 | Creativity & Quality | 4 | .81 | .67 |
+| 4 | Pace | 4 | .75 | -ᵃ |
+| 5 | consistent Characterizations | 2 | -ᵇ | -ᵇ |
+
+ᵃ: Heywood case for common factor. Omega Hierachical could not be reliably estimated.
+ᵇ: Only 2 items. Omega could not be computed. Spearman-Brown reliability coefficient was 0.76.
+
+While this scale still has plenty of avenues for further exploration and optimization, it should already provide a good instrument to use in future studies. The final AISS v1 with all 23 items can be found [here](../AISS/v1/aiss_v1.md).
+### AISS Application Examples
+To demonstrate how the AISS could be used to aid future research, I carried out a few proof of concept analyses. In this case I used the AISS to explore the role of generation settings on the nature of the resulting story excerpts. Of course, this idea could be further extended to study the influence of different model architectures, training data, hyperparameters, etc. on the nature of the generated stories.
+

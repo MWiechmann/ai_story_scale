@@ -18,8 +18,8 @@ factor-analyzer = "^0.4.1"
 scipy = "^1.9.3"
 statsmodels = "^0.13.5"
 jupyter = "^1.0.0"
-# efa-utils = "^0.7.2"
-efa-utils = {version = "^0.7.5", source = "testpypi"}
+efa-utils = "^0.7.6"
+# efa-utils = {version = "^0.7.5", source = "testpypi"}
 reliabilipy = "^0.0.35"
 pingouin = "^0.5.2"
 sklearn = "^0.0.post1"

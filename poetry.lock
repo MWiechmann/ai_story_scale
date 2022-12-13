@@ -285,7 +285,7 @@ python-versions = "*"
 
 [[package]]
 name = "efa-utils"
-version = "0.7.5"
+version = "0.7.6"
 description = "Custom utility functions for exploratory factor analysis with the factor_analyzer package."
 category = "main"
 optional = false
@@ -295,11 +295,6 @@ python-versions = ">=3.11,<4.0"
 factor-analyzer = ">=0.4.1,<0.5.0"
 numpy = ">=1.23.5,<2.0.0"
 pandas = ">=1.5.1,<2.0.0"
-
-[package.source]
-type = "legacy"
-url = "https://test.pypi.org/simple"
-reference = "testpypi"
 
 [[package]]
 name = "entrypoints"
@@ -1855,7 +1850,7 @@ reference = "testpypi"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.11"
-content-hash = "42f6c9a8790b460beec270baaa4026b5f9efb93221338ffc81ea766ee0319566"
+content-hash = "7b5def888078559b87b48a5813e1b9e8741f29560143eb3bed693b59e582f118"
 
 [metadata.files]
 anova-utils = [
@@ -2052,8 +2047,8 @@ distlib = [
     {file = "distlib-0.3.6.tar.gz", hash = "sha256:14bad2d9b04d3a36127ac97f30b12a19268f211063d8f8ee4f47108896e11b46"},
 ]
 efa-utils = [
-    {file = "efa_utils-0.7.5-py3-none-any.whl", hash = "sha256:dc3db1870edd6ca87c0b8c6c1331dd969995aa56497a09dd3d7eb534f08b043d"},
-    {file = "efa_utils-0.7.5.tar.gz", hash = "sha256:9cd1b9903510ac67b381277af9535cbc1b921484011970737c53abeaf34f34ac"},
+    {file = "efa_utils-0.7.6-py3-none-any.whl", hash = "sha256:80241674fcadfd1486b811d4381a9f2fafaa4d65815238b49633843ed3bdf767"},
+    {file = "efa_utils-0.7.6.tar.gz", hash = "sha256:47e4474e0465271186ac0ceaf95c5665096583735c7276b622a8d3eb1dcba4b5"},
 ]
 entrypoints = [
     {file = "entrypoints-0.4-py3-none-any.whl", hash = "sha256:f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f"},
