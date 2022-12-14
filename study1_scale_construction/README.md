@@ -15,6 +15,9 @@
         - [Initial Factor Solution](#initial-factor-solution)
         - [Refinement of Factor Solution](#refinement-of-factor-solution)
     - [AISS Application Examples](#aiss-application-examples)
+      - [Effect Of Generation Settings](#effect-of-generation-settings)
+      - [Effect Of Prompts](#effect-of-prompts)
+      - [AI Users Versus Panel Sample](#ai-users-versus-panel-sample)
 
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
@@ -25,7 +28,7 @@ This study also contains a few proof-of-concept analyzes to show how the AISS ca
 ### Participants
 For this study, 398 participants were recruited from two sources: I gathered participants from the community of users of AI storytelling apps as well as from panels for academic research.
 
-* Community: Recruited from community forums of users of AI storytelling apps. Recruitment was carried out on the [NovelAI Discord](https://discord.com/invite/novelai), [NovelAI Reddit](https://discord.com/invite/novelai) and the [AI Multiverse Discord](https://discord.com/invite/puRyrw869h). (165 participants)
+* Community: Recruited from community platforms of users of AI storytelling apps. Recruitment was carried out on the [NovelAI Discord](https://discord.com/invite/novelai), [NovelAI Reddit](https://discord.com/invite/novelai) and the [AI Multiverse Discord](https://discord.com/invite/puRyrw869h). (165 participants)
 * Panels: Recruited from panels for academic research ([SurveySwap.io](https://surveyswap.io/) and [SurveyCircle.com](https://www.surveycircle.com/)). (233 participants)
 
 The survey for participant panels did contain two additional quality-control items to sort out respondents with low data quality. This led to excluding 72 participants. Furthermore, three participants did not provide answers for all items and were also excluded. This left 323 participants for the analysis (162 from the community sample, 161 from the panels sample).
@@ -296,6 +299,60 @@ As a last step, the direction of some factors were reversed so that all factors 
 ᵇ: Only 2 items. Omega could not be computed. Spearman-Brown reliability coefficient was 0.76.
 
 While this scale still has plenty of avenues for further exploration and optimization, it should already provide a good instrument to use in future studies. The final AISS v1 with all 23 items can be found [here](../AISS/v1/aiss_v1.md).
+
 ### AISS Application Examples
-To demonstrate how the AISS could be used to aid future research, I carried out a few proof of concept analyses. In this case I used the AISS to explore the role of generation settings on the nature of the resulting story excerpts. Of course, this idea could be further extended to study the influence of different model architectures, training data, hyperparameters, etc. on the nature of the generated stories.
+To demonstrate how the AISS could be used to aid future research, I carried out a few proof of concept analyses. In this case I used the factor scores obtained in the final factor solution to explore the role of generation settings on the nature of the resulting story excerpts. Of course, this idea could be further extended to study the influence of different model architectures, training data, hyperparameters, etc. on the nature of the generated stories. While this analysis employs factor scores for greater precision, it would also possible to use the scale means to explore such effects.
+
+All analyses reported in here were carried out with a significance level of .05.
+
+To explore the effect of generation settings and prompt on the nature of the generated story excerpts, I conducted one seperate ANOVA for each AISS factor with the respective factor score as dependent variable and generation settings, prompt and sample source as predictors. Since clear heteroscedasticity was present in the data, I used the [HC3 standard errors](https://doi.org/10.2307/2685594) to correct for this. To test for effects of the predictors, I set up the following planned contrasts:
+* Generation settings: [Sum (Deviation) coding (compares each level to the grand mean)](https://www.statsmodels.org/dev/examples/notebooks/generated/contrasts.html#Sum-(Deviation)-Coding)
+* Prompts: Sum Coding
+* Sample Source: [Dummy (Treatment) Coding, with the community sample as the reference group](https://www.statsmodels.org/dev/examples/notebooks/generated/contrasts.html#Treatment-(Dummy)-Coding)
+
+For the contrasts, p-values were corrected for multiple testing using the [Benjamini/Hochberg correction for false discovery rate](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.fdrcorrection.html). All reported regression coefficients are standardized.
+
+The ANOVA served to find reliable effects of the predictors on the mean of the factor scores. However, there were good reasons to suspect effects on the _variance_ of the factor scores as well, especially for the generation settings. More specificaly, the tested presets apply a variety of different generation settings like [temperature](https://medium.com/@imisri1/how-to-set-sampling-temperature-for-gpt-models-762887df1fac), samling ([top-k](https://huggingface.co/blog/how-to-generate#top-k-sampling), [top-p](https://huggingface.co/blog/how-to-generate#top-p-nucleus-sampling), [tfs](https://www.trentonbricken.com/Tail-Free-Sampling/), etc), repetition penalty, etc. Together, these settings might do two things:
+* Cut out bad tokens – this should increase the average scores on story aspects. These average scores over several outputs were analyzed in the ANOVAs.
+* Change the distribution of token probabilities. This could either sharpen the curve, making likely tokens even more likely. Or it could flatten the curve, making likely tokens less prominent and strengthen somewhat unlikely tokens. The former would lead to fairly consistent outputs, while the latter would make outputs more varied. In other words, presets might differ in their _variance_ of story aspect scores. Two presets might thus differ in how _consistent_ their outputs are, even if they have the same _average_.
+
+To explore this idea, I employed Levene's test for homogeneity of variance. For both presets and prompt, I conducted one Leven's test for each factor as an omnibus test. In the case of a significant result I followed up with a post-hoc test, comparing each category to the mean of all other categories combined. P-values for the post-hoc tests were also corrected for multiple testing using the [Benjamini/Hochberg correction for false discovery rate](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.fdrcorrection.html).
+
+In here, I will only present noteworthy results. For the full results, please refer to the [Story Analysis Notebook](/study1_scale_construction/step_3_story_analyses.ipynb).
+
+#### Effect Of Generation Settings
+The result for the average perfomance of the presets on the AISS factors are shown in the following graph. (Error bars represent the 95% confidence intervals for the mean. Scores are regression effects, correcting for the influence of the prompt and assuming the community sample):
+
+![AISS Factor Scores for Generation Settings](graphs/presets_performance.png)
+
+
+Genesis showed lower coherence ratings than the other presets, β = -.33, _p_ = .046, 95% _CI_ = [-.53, -.13].
+
+If I am being honest, it is not immediatly obvious to me what is causing this effect. [Genesis' set of settings](#generation-settings-presets) could be described as very light sampling with Nucleus and TFS (.975 for both) combined with low temperature (.63) and high repitition penalty (2.975). _Something_ in that combination does not seem to work as intended, but for now it is unclear what exactly.
+
+All-Nighter showed generally average ratings for all story factors, |β<i>s</i>| < .19, _ps_ > .55. However, it also showed a high _variance_ when it came to coherence, _p_ = .001, _SD<sub>All-Nighter</sub>_ = 1.28, _SD<sub>all</sub>_ = 1.00.
+
+It seems fairly obvious, that the cause of this effect is All-Nighter's high temperature. [All-Nighter's setting](#generation-settings-presets) are essentially strong sampling with TFS (0.836) combined with high randomness (1.33). Dialing up randomness does not seem to hurt average coherence much, but it does increase the spread around this average.
+
+This effect is also visible in the following graph, which compares the overall distribution of coherence scores with All-Nighter:
+
+![Distribution of Coherence Scores for All-Nighter](graphs/hist_coh_alln.png)
+
+Morpho was the only tested preset [without any sampling or repition penalty at all](#generation-settings-presets). The lack of repitition penalty becomes immediatly obvious in much lower ratings on "avoiding repetitiveness" for this preset, β = -.89, _p_ < .001, 95% _CI_ = [-1.11, -.66]. Furthermore, Morpho also showed lower rating for pace, β = -.46, _p_ = .002, 95% _CI_ = [-.67, -.25]. Interstingly, analysing the differences in variance between presets showed that Morpho also had a lower variance in pace, _p_ = .045, _SD<sub>Morpho</sub>_ = .78, _SD<sub>all</sub>_ = 1.00.
+
+The reasons for these ratings become quickly apperent, when one looks at [example outputs](excerpts/morpho.md). The story visible degrades the longer it continues with this preset. Of course, stories that get caught up in long loops of repition do also not move forward so the low pace ratings are not suprising. Morpho also has relatively low temperature (.6889), which should lead to less varied token distributions. Indeed, this preset seems to not only archive low pace, but archive it _consistently_.
+
+Note that despite having a similar temperature setting than Genesis, Genesis showed about average coherence ratings. So low temperature alone does not seem to be the cause of the low coherence ratings for Genesis. Maybe an interaction of low temperature and high repitition penalty is the culprit? Again, it is not immediatly obvious to me why this would be the case, but this might be an interesting effect to explore further in the future.
+
+Low Rider showed average ratings across all story factors, |β<i>s</i>| < .13, _ps_ > .57. However, this preset showed an increased spread of values regarding pace, _p_ = .001, _SD<sub>Low Rider</sub>_ = 1.24, _SD<sub>all</sub>_ = 1.00.
+
+This effect I am honestly not quite sure what to make of. Nothing in [Low Rider's settings](#generation-settings-presets) that might cause this effect jumps out at me. All that I can conlcude from this is that the variance of story pace seems to be influenced by generation settings. Although in what way is not clear to me at this point.
+
+The differences in spread of pace scores for Morpho and Low Rider are also shown in the following graph:
+
+![Distribution of Pace Scores for Morpho and Low Rider](graphs/hist_pac.png)
+
+#### Effect Of Prompts
+#### AI Users Versus Panel Sample
+I recruited participants for the community sample from community platforms of users of AI storytelling apps. It can thus be assumed that this sample consists primarly of people who are somewhat experienced with AI generated stories. The panel sample, in contrast, consisted of participants from panels for academic research. Participants from this source will usually be either students or the occasional junior researchers. So, not really a sample that is “typical” for the broader population, but I would still assume that these participants are typically not very familiar with AI generated stories. So this should still an interesting point of comparison to NAI users.
 

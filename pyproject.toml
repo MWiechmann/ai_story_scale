@@ -23,7 +23,7 @@ efa-utils = "^0.7.6"
 reliabilipy = "^0.0.35"
 pingouin = "^0.5.2"
 sklearn = "^0.0.post1"
-anova-utils = "^0.3.1"
+anova-utils = "^0.3.2"
 # anova-utils = {version = "^0.1.4", source = "testpypi"}
 comm = "^0.1.1"
 
