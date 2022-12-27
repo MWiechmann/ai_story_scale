@@ -17,7 +17,7 @@
     - [AISS Application Examples](#aiss-application-examples)
       - [Effect Of Generation Settings](#effect-of-generation-settings)
       - [Effect Of Prompts](#effect-of-prompts)
-      - [AI Users Versus Panel Sample](#ai-users-versus-panel-sample)
+      - [AI Users Versus Panel (Student) Sample](#ai-users-versus-panel-student-sample)
 
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
@@ -77,8 +77,8 @@ The full list of tentative items, their source, and its final status regarding t
 | The plot of the story was plausible.                                             | ✔                     | Coherence                   |                                                       | Coherence                   | Own                                                                                                                           |
 | The story felt like a coherent story.                                            | ✔                     | Coherence                   |                                                       | Coherence                   | Own                                                                                                                           |
 | All elements of the story were relevant to the plot.                             | ✔                     | Coherence                   |                                                       | Pace                        | Own                                                                                                                           |
-| Characters in the story were described in a contradicting manner.                | ✔                     | Consistent Characterization | Consistent Characterization                           | Own                         |
-| The way the characters were described was inconsistent.                          | ✔                     | Consistent Characterization | Consistent Characterization                           | Own                         |
+| Characters in the story were described in a contradicting manner.             | ✔                     | Consistent Characterization | | Consistent Characterization                           | Own                         |
+| The way the characters were described was inconsistent.                          | ✔                     | Consistent Characterization | | Consistent Characterization                           | Own                         |
 | The story was innovative.                                                        | ✔                     | Creativity/Quality          |                                                       | Creativity                  | Own                                                                                                                           |
 | The setting of the story was original.                                           | ✔                     | Creativity/Quality          |                                                       | Creativity                  | Own                                                                                                                           |
 | This story was of high quality.                                                  | ✔                     | Creativity/Quality          |                                                       | General Quality             | [Purdy et al. (2018)](https://www.cc.gatech.edu/~riedl/pubs/purdy-aiide18.pdf)                                              |
@@ -353,6 +353,22 @@ The differences in spread of pace scores for Morpho and Low Rider are also shown
 ![Distribution of Pace Scores for Morpho and Low Rider](graphs/hist_pac.png)
 
 #### Effect Of Prompts
-#### AI Users Versus Panel Sample
+The result for the average perfomance of the prompts on the AISS factors are shown in the following graph. (Error bars represent the 95% confidence intervals for the mean. Scores are regression effects, correcting for the influence of the preset and assuming the community sample):
+
+![AISS Factor Scores for Prompts](graphs/prompts_performance.png)
+
+Stories generated from a high fantasy or hard scifi showed stronger coherence than the average, β_s_ > .23, _ps_ < .01. Given that these fantasy and scifi are likely to be common genres in the fine-tune dataset, this is not suprising. Furthermore, high fantasy stories showed a slower pace, β = -.37, _p_ < .001, 95% _CI_ = [-.52, -.23]. Hard scifi stories, on the other hand, was more succesful in avoiding repetitions, β = .37, _p_ < .001, 95% _CI_ = [.23, .51], and contained more consistent characters, β = .42, _p_ < .001, 95% _CI_ = [.26, .59].
+
+The model had noticably more problems with writing stories from the horror prompt: The resulting stories showed a much weaker coherence than average, β = -.67, _p_ < .001, 95% _CI_ = [-.63, -.37]. Furthermore, horror stories were rated as being less creative, β = -.26, _p_ = .02, 95% _CI_ = [-.42, -.11], worse at avoiding repititions, β = -.32, _p_ < .001, 95% _CI_ = [-.47, -.18], and having less consistent characters, β = -.41, _p_ < .001, 95% _CI_ = [-.55, -.26]. The pace of the horror stories, however, was rated as being much faster than the average, β = .52, _p_ < .001, 95% _CI_ = [.37, .68].
+
+The reasons for the ratings for the horror stories become apparent when one looks at the actual generated stories. Two typical outputs for the horror prompt are [here](excerpts/horror.md). It is noticeable how the story tends to contain many plot elements (potentially explaining the high pace ratings), but with little connection to each other (explaining the low coherence and consistencies ratings). It is possible, that NAI's fine-tune dataset does not contain enough horror stories to properly train the model to write this kind of stories. Another reason might be that the prompt relies on something being “terribly wrong”:
+
+> I woke up to hear knocking on glass. At first, I thought it was the window until I heard it come from the mirror again. I got out of bed and walked over to the mirror. When I looked into it, there was a face looking back at me.
+
+Outside of horor stories, mirrors should not work like that. Language models should in most cases be trained to avoid selecting tokens that are “wrong” like that. In most stories, we would want mirrors to show a reflection, not the face of a stranger. So in a way, this prompt might be an uphill battle for most language models.
+
+The prompts did not differ in their variance on any of the five story factors, _ps_ > .16.
+
+#### AI Users Versus Panel (Student) Sample
 I recruited participants for the community sample from community platforms of users of AI storytelling apps. It can thus be assumed that this sample consists primarly of people who are somewhat experienced with AI generated stories. The panel sample, in contrast, consisted of participants from panels for academic research. Participants from this source will usually be either students or the occasional junior researchers. So, not really a sample that is “typical” for the broader population, but I would still assume that these participants are typically not very familiar with AI generated stories. So this should still an interesting point of comparison to NAI users.
 
