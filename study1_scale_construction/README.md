@@ -18,6 +18,8 @@
       - [Effect Of Generation Settings](#effect-of-generation-settings)
       - [Effect Of Prompts](#effect-of-prompts)
       - [AI Users Versus Panel (Student) Sample](#ai-users-versus-panel-student-sample)
+      - [Do Readability Scores Predict Subjective Story Quality?](#do-readability-scores-predict-subjective-story-quality)
+  - [Conclusion](#conclusion)
 
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
@@ -370,5 +372,52 @@ Outside of horor stories, mirrors should not work like that. Language models sho
 The prompts did not differ in their variance on any of the five story factors, _ps_ > .16.
 
 #### AI Users Versus Panel (Student) Sample
-I recruited participants for the community sample from community platforms of users of AI storytelling apps. It can thus be assumed that this sample consists primarly of people who are somewhat experienced with AI generated stories. The panel sample, in contrast, consisted of participants from panels for academic research. Participants from this source will usually be either students or the occasional junior researchers. So, not really a sample that is “typical” for the broader population, but I would still assume that these participants are typically not very familiar with AI generated stories. So this should still an interesting point of comparison to NAI users.
+I recruited participants for the community sample from community platforms of users of AI storytelling apps. It can thus be assumed that this sample consists primarly of people who are somewhat experienced with AI generated stories. The panel sample, in contrast, consisted of participants from panels for academic research. Participants from this source will usually be either students or the occasional junior researchers. So, not really a sample that is “typical” for the broader population, but I would still assume that these participants are typically not very familiar with AI generated stories. So this should still an interesting point of comparison to AI users.
 
+The differences between AI users and the panel sample is shown in the graph below. Scores are again regression effects, so the effects are corrected for the influence of the prompt and preset:
+
+![AI users versus panel sample](graphs/community_vs_panel.png)
+
+Panel participants rated creativity/quality higher than AI users, β = .30, _p_ = .001, 95% _CI_ = [.12, .48]. Panel participants also perceived the stories as having lower pace, β = -.30, _p_ = .01, 95% _CI_ = [-.47, -.12], and being less succesful at avoiding repititions, β = -.45, _p_ < .001, 95% _CI_ = [-.62, -.29] compared to AI users.
+
+One thing to keep in mind when looking at these results is that participants were told that the stories were AI-generated. So the participants' familiarity and expectations with AI-generated stories will have influenced their ratings. In this respect, the differences regarding the creativity rating are interesting because I could imagine that panel participants unfamiliar with AI-stories actually might have lower expectations towards the story creativity and quality than AI users. So, they might be surprised at the interesting ideas that a language model can generate.
+
+Similarly, AI users might be more familiar with the fact that AI-generated texts can run into problems with repetition, so they might have  been more willing to overlook slight issues with repetition.
+
+I am not quite sure about the differences about pace, to be honest. Of course, people interested in AI-generated stories might generally be more avid readers and thus more patient readers...
+
+#### Do Readability Scores Predict Subjective Story Quality?
+How useful are automated readability scores for evaluating the quality of AI-generated stories? Could we use readability scores as a proxy measure of story factors? To answer this question, I examined the predictive power of [Flesch Reading Ease Score](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests#Flesch_reading_ease) and a consensus score of several automated reading scores on the five story factors. For the consensus score, I used [textstat's](https://pypi.org/project/textstat/) consensus readability score, which estimates the school grade level required to understand the text. This conseus score is based upon the Flesh Reading Ease Score, Flesh Kincaid Grade Level, FOG Scale, SMOG Index, Automated Readability Index (ARI), Coleman-Liau Index, Linsear Write Formula, Dale-Chall Readability Score.
+
+For each of the five story factors, I a ran k-fold cross-validation with a linear and non-linear regression models. These models used the respective story factor as the dependent variable and either the Flesch Reading Ease Score or the consensus score as the independent variables. I also tested non-linear models with polynomial terms up to the third degree.
+
+Only for coherence, the consensus showed a small amount of predictive power with a quadratic model during k-fold cross-validation, _R_² = .06. The Flesch Reading Ease Score score showed a slightly lower predictive power for coherence with a quadratic model, _R_² = .04. For all other story factors, the predictive power of both readability scores was negligible to non-existent, _R_² < .02.
+
+So in general, automated readability scores do not tell us much about the nature and subjective quality of AI-generated stories. Still, the weak quadratic relationship between the consensus score and coherence was deemed intersting enough for further exploration. The results for the quadratic model are shown in the table below:
+
+Predictor | _Coefficient_ | _p_-value | 95% _CI_
+---|---|---|---
+Intercept | .08 | .19 | [-.04, .19]
+Readability Consensus | .23 | < .001 | [.14, .31]
+Readability Consensus<sup>2</sup> | -.06 | < .001  | [-.09, -.02]
+
+The quadratic relationship between the consensus score and coherence is shown in the graph below (remember that higher consensus scores indicate lower readability):
+
+![Consensus score -> coherence](graphs/readability_coherence.png)
+
+As can be seen in the graph, more complex texts tend to be seen as more coherent up until a readability score of 7.90 after which the relationship becomes slightly negative.
+
+As a point of reference, a readability grade of 7.9 corresponds to the writing complexity of authors like James Patterson or F. Scott Fitzgerald. Most popular novels are written at a readability grade of 7th-grade level, while the Readers Digest is written at a 9th-grade level.
+
+I hasten to remind the reader that this relationship, while significant, was very weak. So readability scores are far from being a good indicator of how humans will experience an AI-generated story.
+
+## Conclusion
+In this study, I aimed to develop a psychometrically validated measure of the subjective quality and nature of AI-generated stories. The results from this study indicated that the nature of AI-generated stories can be described by the factors coherence, avoid repetition, creativity/quality, pace, and consistent characterizations. Based on these results, I developed the AI Story Scale v1 (AISS v1). The AI Story Scale v1 is a 23-item scale that measures the five story factors with acceptable to good reliability (ω _Total_ from .75 to .87). Without doubt, the AISS v1 still has room for improvement, but I believe that it is a good starting point for a more robust evaluation of AI-generated stories.
+
+The full AISS v1 can be found [here](../AISS/v1/aiss_v1.md), and researchers are encouraged to use it in their own research.
+
+I also provided a few simple example proof-of-concept analyses to show what kind of insights the AISS v1 can provide. AI-generated stories resulting from different prompts and hyperparameters were compared on the five story factors. The findings indicated that prompts can influence all five story factors of the resulting story. Some of those effects were of fairly strong magnitude. Furthermore, one hyperparameter set ("presets") that lacked a repitition penalty showed a much higher amount of repititions. High settings of randomness did _not_ influence _average_ coherence, but lead to a high _variance_ of the story's coherence. Some hyperparameter settings also influenced the variance of pace, but the exact cause of those effects are not immediatly obvious and will have to be explored in future research.
+
+Further findings showed that raters' experience with AI-generated stories influenced their ratings. AI users rated the stories as being less creative, slower paced and containing less repititions.
+
+Finally, I explored potential relationships between automated readability scores with the five story factors. Readability scores generally showed very weak to no relationship with the story factors, calling their utility for evaluating AI-generated stories into question.

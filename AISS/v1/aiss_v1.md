@@ -42,13 +42,13 @@ Indicate how much you agree or disagree with each of the following statements ab
 15. This story was of high quality.
 16. I would like to read more stories like this one.
 ## Pace
-17. The story moved at a fast pace.
-18. It took a long time for things to happen in the story. _(reverse)_
-19. Nothing seemed to be happening in the story. _(reverse)_
-20. The plot had no development. _(reverse)_
+1.  The story moved at a fast pace.
+2.  It took a long time for things to happen in the story. _(reverse)_
+3.  Nothing seemed to be happening in the story. _(reverse)_
+4.  The plot had no development. _(reverse)_
 ## Consistent Characterization
-22.  The way the characters were described was inconsistent. _(reverse)_
-23.  Characters in the story were described in a contradicting manner. _(reverse)_
+1.   The way the characters were described was inconsistent. _(reverse)_
+2.   Characters in the story were described in a contradicting manner. _(reverse)_
 
 
 
