@@ -1,30 +1,25 @@
-- [Study 1: Building the AI Story Scale](#study-1-building-the-ai-story-scale)
-  - [Method](#method)
-    - [Participants](#participants)
-    - [Item Generation](#item-generation)
-    - [Procedure And Materials](#procedure-and-materials)
-      - [Story Excerpts](#story-excerpts)
-        - [Prompt/Memory Pairs](#promptmemory-pairs)
-        - [Generation Settings (Presets)](#generation-settings-presets)
-      - [Quality-Control Questions](#quality-control-questions)
-  - [Results](#results)
-    - [Scale Construction](#scale-construction)
-      - [Preliminary Analysis](#preliminary-analysis)
-      - [Exploratory Factor Analysis](#exploratory-factor-analysis)
-        - [Number Of Factors](#number-of-factors)
-        - [Initial Factor Solution](#initial-factor-solution)
-        - [Refinement of Factor Solution](#refinement-of-factor-solution)
-    - [AISS Application Examples](#aiss-application-examples)
-      - [Effect Of Generation Settings](#effect-of-generation-settings)
-      - [Effect Of Prompts](#effect-of-prompts)
-      - [AI Users Versus Panel (Student) Sample](#ai-users-versus-panel-student-sample)
-      - [Do Readability Scores Predict Subjective Story Quality?](#do-readability-scores-predict-subjective-story-quality)
-  - [Conclusion](#conclusion)
-
 # Study 1: Building the AI Story Scale
 This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
 
 This study also contains a few proof-of-concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different types of stories.
+
+## Table Of Contents
+[Method](#method)
+&nbsp;&nbsp;&nbsp;&nbsp;[Participants](#participants)
+&nbsp;&nbsp;&nbsp;&nbsp;[Item Generation](#item-generation)
+&nbsp;&nbsp;&nbsp;&nbsp;[Procedure And Materials](#procedure-and-materials)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Story Excerpts](#story-excerpts)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Quality-Control Questions](#quality-control-questions)
+[Results](#results)
+&nbsp;&nbsp;&nbsp;&nbsp;[Scale Construction](#scale-construction)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Preliminary Analysis](#preliminary-analysis)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exploratory Factor Analysis](#exploratory-factor-analysis)
+&nbsp;&nbsp;&nbsp;&nbsp;[AISS Application Examples](#aiss-application-examples)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Effect Of Generation Settings](#effect-of-generation-settings)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Effect Of Prompts](#effect-of-prompts)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[AI Users Versus Panel (Student) Sample](#ai-users-versus-panel-student-sample)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Do Readability Scores Predict Subjective Story Quality?](#do-readability-scores-predict-subjective-story-quality)
+[Conclusion](#conclusion)
 
 ## Method
 ### Participants
