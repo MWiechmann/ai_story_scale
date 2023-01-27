@@ -316,17 +316,12 @@ The ANOVA served to find reliable effects of the predictors on the mean of the f
 
 To explore this idea, I employed Levene's test for homogeneity of variance. For both presets and prompt, I conducted one Levene's test for each factor as an omnibus test. In the case of a significant result, I followed up with a post-hoc test, comparing each category to the mean of all other categories combined. P-values for the post-hoc tests were also corrected for multiple testing using the [Benjamini/Hochberg correction for false discovery rate](https://www.statsmodels.org/dev/generated/statsmodels.stats.multitest.fdrcorrection.html).
 
-In here, I will only present noteworthy results. For the full results, please refer to the [Story Analysis Notebook](/study1_scale_construction/step_3_story_analyses.ipynb).
+In here, I will only present a selection of noteworthy results. For the full results, please refer to the [Story Analysis Notebook](/study1_scale_construction/step_3_story_analyses.ipynb).
 
 #### Effect Of Generation Settings
 The result for the average performance of the presets on the AISS factors are shown in the following graph. (Error bars represent the 95% confidence intervals for the mean. Scores are regression effects, correcting for the influence of the prompt and assuming the community sample):
 
 ![AISS Factor Scores for Generation Settings](graphs/presets_performance.png)
-
-
-Genesis showed lower coherence ratings than the other presets, β = -.33, _p_ = .046, 95% _CI_ = [-.53, -.13].
-
-If I am being honest, it is not immediately obvious to me what is causing this effect. [Genesis' set of settings](#generation-settings-presets) could be described as very light sampling with Nucleus and TFS (.975 for both) combined with low temperature (.63) and high repetition penalty (2.975). _Something_ in that combination does not seem to work as intended, but for now, it is unclear what exactly.
 
 All-Nighter showed generally average ratings for all story factors, |β<i>s</i>| < .19, _ps_ > .55. However, it also showed a high _variance_ when it came to coherence, _p_ = .001, _SD<sub>All-Nighter</sub>_ = 1.28, _SD<sub>all</sub>_ = 1.00.
 
@@ -342,14 +337,6 @@ The reasons for these ratings become quickly apparent when one looks at [example
 
 Note that despite having a similar temperature setting than Genesis, Genesis showed about average coherence ratings. So low temperature alone does not seem to be the cause of the low coherence ratings for Genesis. Maybe an interaction of low temperature and high repetition penalty is the culprit? Again, it is not immediately obvious to me why this would be the case, but this might be an interesting effect to explore further in the future.
 
-Low Rider showed average ratings across all story factors, |β<i>s</i>| < .13, _ps_ > .57. However, this preset showed an increased spread of values regarding pace, _p_ = .001, _SD<sub>Low Rider</sub>_ = 1.24, _SD<sub>all</sub>_ = 1.00.
-
-This effect, I am honestly not quite sure what to make of. Nothing in [Low Rider's settings](#generation-settings-presets) that might cause this effect jumps out at me. All that I can conclude from this is that the variance of story pace seems to be influenced by generation settings. Although in what way is not clear to me at this point.
-
-The differences in spread of pace scores for Morpho and Low Rider are also shown in the following graph:
-
-![Distribution of Pace Scores for Morpho and Low Rider](graphs/hist_pac.png)
-
 #### Effect Of Prompts
 The result for the average performance of the prompts on the AISS factors are shown in the following graph. (Error bars represent the 95% confidence intervals for the mean. Scores are regression effects, correcting for the influence of the preset and assuming the community sample):
 
@@ -364,8 +351,6 @@ The reasons for the ratings for the horror stories become apparent when one look
 > I woke up to hear knocking on glass. At first, I thought it was the window until I heard it come from the mirror again. I got out of bed and walked over to the mirror. When I looked into it, there was a face looking back at me.
 
 Outside horror stories, mirrors should not work like that. Language models should in most cases be trained to avoid selecting tokens that are “wrong” like that. In most stories, we would want mirrors to show a reflection, not the face of a stranger. So in a way, this prompt might be an uphill battle for most language models.
-
-The prompts did not differ in their variance on any of the five story factors, _ps_ > .16.
 
 #### AI Users Versus Panel (Student) Sample
 I recruited participants for the community sample from community platforms of users of AI storytelling apps. It can thus be assumed that this sample consists primarily of people who are somewhat experienced with AI-generated stories. The panel sample, in contrast, consisted of participants from panels for academic research. Participants from this source will usually be either students or the occasional junior researchers. So, not really a sample that is “typical” for the broader population, but I would still assume that these participants are typically not very familiar with AI-generated stories. So, this should still an interesting point of comparison to AI users.
@@ -387,7 +372,7 @@ How useful are automated readability scores for evaluating the quality of AI-gen
 
 For each of the five story factors, I ran k-fold cross-validation with a linear and non-linear regression models. These models used the respective story factor as the dependent variable and either the Flesch Reading Ease Score or the consensus score as the independent variables. I also tested non-linear models with polynomial terms up to the third degree.
 
-Only for coherence, the consensus showed a small amount of predictive power with a quadratic model during k-fold cross-validation, _R_² = .06. The Flesch Reading Ease Score showed a slightly lower predictive power for coherence with a quadratic model, _R_² = .04. For all other story factors, the predictive power of both readability scores was negligible to non-existent, _R_² < .02.
+Only for coherence, the consensus showed a small amount of predictive power with a quadratic model during k-fold cross-validation, _R²_ = .06. The Flesch Reading Ease Score showed a slightly lower predictive power for coherence with a quadratic model, _R²_ = .04. For all other story factors, the predictive power of both readability scores was negligible to non-existent, _R²_ < .02.
 
 So, in general, automated readability scores do not tell us much about the nature and subjective quality of AI-generated stories. Still, the weak quadratic relationship between the consensus score and coherence was deemed interesting enough for further exploration. The results for the quadratic model are shown in the table below:
 
