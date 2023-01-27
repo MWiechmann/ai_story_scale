@@ -13,7 +13,7 @@ Some questions are marked with (reverse). These questions measure the opposite o
 All questions below should be rated on the following scale:
 1|2|3|4|5
 -|-|-|-|-
-Strongly disagree|Somewhat disagree|Neither agree or disagree|Somewhat agree|Strongly agree
+Strongly disagree|Somewhat disagree|Neither agree nor disagree|Somewhat agree|Strongly agree
 
 ## Instructions
 ```
