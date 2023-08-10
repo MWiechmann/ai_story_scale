@@ -1,3 +1,12 @@
+# Table of Contents
+- [Summary](#summary)
+- [Motivation](#motivation)
+- [Current Story Quality Measures](#current-story-quality-measures)
+- [How Do You Measure Opinions, Anyway?](#how-do-you-measure-opinions-anyway)
+- [Enter The AI Story Scale](#enter-the-ai-story-scale)
+- [How To Cite The AISS](#how-to-cite-the-aiss)
+- [FAQ](#faq)
+
 # Summary
 Research on the evaluation of AI-generated stories has yet to adopt a psychometrically validated scale for human evaluations. This poses a serious threat to the validity and reliability of research findings, as existing measures may not accurately capture the intended concepts or may not capture them reliably enough for results to be meaningful. The AI Story Scale (AISS) addresses this gap by providing a reliable and valid rating scale that draws on empirical research and best psychometric practices, enabling researchers and practitioners to evaluate the quality and nature of AI-generated stories with confidence.
 
