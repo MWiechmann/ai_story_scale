@@ -1,7 +1,7 @@
 # Study 1: Building the AI Story Scale
-This is the initial study for drafting the items for the AISS, and exploring their factorial structure. Based on the results of this study, I constructed the version of the AISS.
+This is the initial study for drafting the items for the AI Story Scale (AISS) and exploring their factorial structure. The purpose of this study was to develop a reliable and valid scale for evaluating AI-generated stories. By understanding the underlying factors that contribute to the perceived quality of AI-generated stories, I aimed to create a comprehensive tool that can be used by researchers and practitioners to assess the effectiveness of different AI storytelling models. Based on the results of this study, I constructed the version of the AISS.
 
-This study also contains a few proof-of-concept analyzes to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different types of stories.
+This study also contains a few proof-of-concept analyses to show how the AISS can be used to gain a more detailed understanding of how different generation settings can lead to different types of stories.
 
 ## Table Of Contents
 [Method](#method)\
